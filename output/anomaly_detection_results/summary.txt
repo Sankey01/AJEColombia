@@ -1,0 +1,70 @@
+================================================================================
+RESUMEN DE DETECCIÓN DE ANOMALÍAS
+================================================================================
+
+Total de registros analizados: 5,050
+Registros con anomalías: 5,047 (99.94%)
+Registros limpios: 3 (0.06%)
+
+================================================================================
+ANOMALÍAS POR DETECTOR
+================================================================================
+
+DUPLICATE:
+  - Anomalías: 100 (1.98%)
+
+FORMAT:
+  - Anomalías: 198 (3.92%)
+  - Desglose:
+    * excessive_decimals: 100
+    * negative_credit_days: 100
+    * zero_credit_days: 0
+    * invalid_amounts: 0
+
+TEMPORAL:
+  - Anomalías: 5,013 (99.27%)
+  - Desglose:
+    * inconsistent_dates: 5,013
+    * inverted_dates: 0
+    * excessive_difference: 0
+
+BUSINESS_RULES:
+  - Anomalías: 3,346 (66.26%)
+
+APPROVER:
+  - Anomalías: 100 (1.98%)
+
+AMOUNT:
+  - Anomalías: 38 (0.75%)
+  - Desglose:
+    * global_outliers: 37
+    * provider_outliers: 33
+    * approver_outliers: 34
+
+DISCOUNT_PENALTY:
+  - Anomalías: 2,207 (43.7%)
+  - Desglose:
+    * invalid_discounts: 0
+    * invalid_penalties: 0
+    * discount_on_delayed: 1,128
+    * penalty_on_paid: 1,079
+
+CROSS_CONSISTENCY:
+  - Anomalías: 3,897 (77.17%)
+  - Desglose:
+    * delayed_not_past_due: 0
+    * pending_past_due: 1,690
+    * paid_with_penalty: 1,079
+    * delayed_with_discount: 1,128
+
+================================================================================
+DISTRIBUCIÓN DE ANOMALÍAS POR REGISTRO
+================================================================================
+
+Registros con 0 anomalías: 3
+Registros con 1 anomalías: 386
+Registros con 2 anomalías: 1,269
+Registros con 3 anomalías: 1,772
+Registros con 4 anomalías: 1,460
+Registros con 5 anomalías: 141
+Registros con 6 anomalías: 19

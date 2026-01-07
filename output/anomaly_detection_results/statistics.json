@@ -1,0 +1,110 @@
+{
+  "total_records": 5050,
+  "records_with_anomalies": 5047,
+  "records_clean": 3,
+  "anomaly_percentage": 99.94,
+  "clean_percentage": 0.06,
+  "detector_statistics": {
+    "duplicate": {
+      "detector_name": "duplicate",
+      "total_records": 5050,
+      "anomalies_found": 100,
+      "anomaly_percentage": 1.98,
+      "total_duplicate_groups": 50,
+      "groups_with_different_approvers": 2,
+      "groups_with_different_amounts": 2,
+      "groups_with_both_different": 0,
+      "total_duplicate_records": 100
+    },
+    "format": {
+      "detector_name": "format",
+      "total_records": 5050,
+      "anomalies_found": 198,
+      "anomaly_percentage": 3.92,
+      "breakdown": {
+        "excessive_decimals": 100,
+        "negative_credit_days": 100,
+        "zero_credit_days": 0,
+        "invalid_amounts": 0
+      }
+    },
+    "temporal": {
+      "detector_name": "temporal",
+      "total_records": 5050,
+      "anomalies_found": 5013,
+      "anomaly_percentage": 99.27,
+      "tolerance_days": 5,
+      "breakdown": {
+        "inconsistent_dates": 5013,
+        "inverted_dates": 0,
+        "excessive_difference": 0
+      }
+    },
+    "business_rules": {
+      "detector_name": "business_rules",
+      "total_records": 5050,
+      "anomalies_found": 3346,
+      "anomaly_percentage": 66.26
+    },
+    "approver": {
+      "detector_name": "approver",
+      "total_records": 5050,
+      "anomalies_found": 100,
+      "anomaly_percentage": 1.98,
+      "suspicious_approvers_count": 3,
+      "suspicious_approvers": [
+        "John Doe",
+        "Unauthorized User",
+        "Jane Smith"
+      ]
+    },
+    "amount": {
+      "detector_name": "amount",
+      "total_records": 5050,
+      "anomalies_found": 38,
+      "anomaly_percentage": 0.75,
+      "z_threshold": 3.0,
+      "breakdown": {
+        "global_outliers": 37,
+        "provider_outliers": 33,
+        "approver_outliers": 34
+      }
+    },
+    "discount_penalty": {
+      "detector_name": "discount_penalty",
+      "total_records": 5050,
+      "anomalies_found": 2207,
+      "anomaly_percentage": 43.7,
+      "discount_range": "0-15%",
+      "penalty_range": "0-5%",
+      "breakdown": {
+        "invalid_discounts": 0,
+        "invalid_penalties": 0,
+        "discount_on_delayed": 1128,
+        "penalty_on_paid": 1079
+      }
+    },
+    "cross_consistency": {
+      "detector_name": "cross_consistency",
+      "total_records": 5050,
+      "anomalies_found": 3897,
+      "anomaly_percentage": 77.17,
+      "reference_date": "2026-01-07",
+      "breakdown": {
+        "delayed_not_past_due": 0,
+        "pending_past_due": 1690,
+        "paid_with_penalty": 1079,
+        "delayed_with_discount": 1128
+      }
+    }
+  },
+  "anomaly_distribution": {
+    "0": 3,
+    "1": 386,
+    "2": 1269,
+    "3": 1772,
+    "4": 1460,
+    "5": 141,
+    "6": 19
+  }
+}

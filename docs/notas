@@ -1,0 +1,30 @@
+PARTE I: Caso Práctico Principal (60 puntos)
+Sección A: Análisis de Condiciones de Pagos (25 puntos)
+Tareas Específicas:
+• Identificar y categorizar todas las anomalías presentes en el dataset
+• Analizar patrones de comportamiento en condiciones de pago
+• Detectar transacciones duplicadas y sus características
+• Evaluar la consistencia de aprobadores y montos
+• Proponer controles automáticos para prevenir anomalías
+Entregables:
+• Dashboard interactivo con visualizaciones de anomalías
+• Informe ejecutivo con hallazgos y recomendaciones
+• Matriz de riesgo por tipo de anomalía
+
+
+normalizacion de data:
+1. columnas de fecha, convertiralas en formato fecha yyyy-mm-dd (fecha_factura,	fecha_vencimiento)
+2. normalizar de data numerica en monto, dejar solo dos decimales
+3. identificar duplicados de la data
+
+
+** Identificar y categorizar todas las anomalías presentes en el dataset:
+anomalias de data set:
+1. data duplicada: se supone que para la columnas del data set la informacion son iguales , lo cual es un indicador que la data esta duplicada
+2. dias_credito negativos, los datos debe se positivos
+3. Montos con más de 2 decimales
+4. Aprobadores no autorizados (no están en lista válida: Alice, Bob, Charlie, David)
+5. montos atipicos 37 casos ID 217 → $24,272.16 (Z-score: 6.09) ID 1000 → $22,990.43 (Z-score: 5.68)
+
+
+
