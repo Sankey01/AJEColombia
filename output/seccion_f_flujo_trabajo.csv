@@ -1,0 +1,201 @@
+tipo_caso,nivel_complejidad,monto_involucrado,estado,responsable,ruta_escalacion,sla_dias,estado_sla,fecha_incidencia,sla_vencimiento
+Excepción Regulatoria,Alto,47455.07,Abierto,Bob,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-01-06,2022-01-07 00:00:00
+Aprobación Manual,Alto,47906.99,Abierto,Alice,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-02-05,2022-02-06 00:00:00
+Aprobación Manual,Alto,46729.71,Abierto,Bob,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-05-16,2022-05-17 00:00:00
+Transacción Internacional Compleja,Alto,47022.62,Abierto,Charlie,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-10-02,2022-10-04 00:00:00
+Aprobación Manual,Alto,49762.32,En Proceso,Charlie,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-06-09,2022-06-10 00:00:00
+Ajuste Contable,Alto,43595.72,Abierto,David,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-05-23,2022-05-25 00:00:00
+Excepción Regulatoria,Alto,45361.49,Abierto,Alice,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-09-08,2022-09-09 00:00:00
+Transacción Internacional Compleja,Alto,42419.89,Abierto,David,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-05-09,2022-05-11 00:00:00
+Ajuste Contable,Alto,49432.29,En Proceso,Bob,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-07-15,2022-07-17 00:00:00
+Aprobación Manual,Alto,40521.58,Abierto,Alice,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-06-08,2022-06-09 00:00:00
+Aprobación Manual,Alto,36863.47,Abierto,Bob,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-02-10,2022-02-11 00:00:00
+Transacción con Disputa,Alto,40898.0,Abierto,David,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-08-12,2022-08-15 00:00:00
+Aprobación Manual,Alto,41368.91,En Proceso,Charlie,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-02-02,2022-02-03 00:00:00
+Pago Urgente,Alto,46049.97,En Proceso,Bob,Operativo → Supervisor → Gerencia,0.25,Vencido,2022-09-02,2022-09-02 06:00:00
+Proveedor VIP,Alto,38347.29,Abierto,Bob,Operativo → Supervisor → Gerencia,0.5,Vencido,2022-10-02,2022-10-02 12:00:00
+Pago Urgente,Alto,44354.63,Cerrado,Charlie,Operativo → Supervisor → Gerencia,0.25,Cumplido,2022-02-28,2022-02-28 06:00:00
+Excepción Regulatoria,Alto,44028.22,Cerrado,Alice,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-02-23,2022-02-24 00:00:00
+Pago Urgente,Alto,38374.12,En Proceso,Bob,Operativo → Supervisor → Gerencia,0.25,Vencido,2022-02-20,2022-02-20 06:00:00
+Ajuste Contable,Alto,41697.89,En Proceso,David,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-09-16,2022-09-18 00:00:00
+Transacción Internacional Compleja,Alto,36202.01,Abierto,Bob,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-10-12,2022-10-14 00:00:00
+Excepción Regulatoria,Alto,42078.52,En Proceso,Alice,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-12-04,2022-12-05 00:00:00
+Proveedor VIP,Alto,45390.21,Cerrado,Charlie,Operativo → Supervisor → Gerencia,0.5,Cumplido,2022-09-19,2022-09-19 12:00:00
+Pago Urgente,Alto,34980.09,Abierto,Bob,Operativo → Supervisor → Gerencia,0.25,Vencido,2022-12-03,2022-12-03 06:00:00
+Aprobación Manual,Alto,39225.7,Cerrado,Bob,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-02-22,2022-02-23 00:00:00
+Excepción Regulatoria,Alto,38057.17,Cerrado,David,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-01-21,2022-01-22 00:00:00
+Pago Urgente,Alto,32844.34,En Proceso,David,Operativo → Supervisor → Gerencia,0.25,Vencido,2022-04-12,2022-04-12 06:00:00
+Transacción con Disputa,Alto,31639.71,En Proceso,Bob,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-02-24,2022-02-27 00:00:00
+Transacción Internacional Compleja,Alto,23902.12,Abierto,Alice,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-03-26,2022-03-28 00:00:00
+Aprobación Manual,Alto,33401.9,Cerrado,Alice,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-02-05,2022-02-06 00:00:00
+Transacción con Disputa,Alto,32872.41,En Proceso,David,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-09-25,2022-09-28 00:00:00
+Ajuste Contable,Alto,28484.44,Abierto,Alice,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-12-28,2022-12-30 00:00:00
+Proveedor VIP,Alto,30210.22,En Proceso,Bob,Operativo → Supervisor → Gerencia,0.5,Vencido,2022-08-02,2022-08-02 12:00:00
+Transacción con Disputa,Alto,26257.15,En Proceso,Charlie,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-02-13,2022-02-16 00:00:00
+Ajuste Contable,Alto,26856.02,En Proceso,David,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-03-26,2022-03-28 00:00:00
+Pago Urgente,Alto,22725.77,Abierto,Charlie,Operativo → Supervisor → Gerencia,0.25,Vencido,2022-07-09,2022-07-09 06:00:00
+Excepción Regulatoria,Alto,34681.86,Cerrado,Bob,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-08-21,2022-08-22 00:00:00
+Excepción Regulatoria,Alto,24992.38,Abierto,David,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-10-24,2022-10-25 00:00:00
+Proveedor VIP,Medio,49809.95,En Proceso,Charlie,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-07-15,2022-07-16 00:00:00
+Aprobación Manual,Alto,25224.48,Abierto,Bob,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-12-23,2022-12-24 00:00:00
+Excepción Regulatoria,Alto,32288.91,Cerrado,Alice,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-07-15,2022-07-16 00:00:00
+Aprobación Manual,Medio,44327.51,En Proceso,Charlie,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-01-13,2022-01-15 00:00:00
+Caso de Fuerza Mayor,Alto,23148.27,Abierto,Alice,Operativo → Supervisor → Gerencia,0.5,Vencido,2022-10-31,2022-10-31 12:00:00
+Transacción Internacional Compleja,Medio,43388.3,En Proceso,Alice,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-01-05,2022-01-08 00:00:00
+Ajuste Contable,Medio,40294.67,Abierto,Bob,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-04-28,2022-05-01 00:00:00
+Transacción Internacional Compleja,Alto,21911.44,En Proceso,Charlie,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-02-18,2022-02-20 00:00:00
+Ajuste Contable,Alto,30746.72,Cerrado,Charlie,Operativo → Supervisor → Gerencia,2.0,Cumplido,2022-08-06,2022-08-08 00:00:00
+Ajuste Contable,Alto,22553.76,En Proceso,Charlie,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-05-03,2022-05-05 00:00:00
+Aprobación Manual,Alto,31349.69,Cerrado,Charlie,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-11-01,2022-11-02 00:00:00
+Transacción con Disputa,Alto,19091.58,En Proceso,Bob,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-01-19,2022-01-22 00:00:00
+Caso de Fuerza Mayor,Medio,46525.83,Cerrado,Bob,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-01-10,2022-01-11 00:00:00
+Transacción Internacional Compleja,Alto,25385.7,En Proceso,Bob,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-12-16,2022-12-18 00:00:00
+Proveedor VIP,Alto,22169.4,Cerrado,Charlie,Operativo → Supervisor → Gerencia,0.5,Cumplido,2022-01-21,2022-01-21 12:00:00
+Ajuste Contable,Alto,13511.01,Abierto,David,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-05-11,2022-05-13 00:00:00
+Transacción Internacional Compleja,Alto,25792.08,Cerrado,Alice,Operativo → Supervisor → Gerencia,2.0,Cumplido,2022-07-09,2022-07-11 00:00:00
+Aprobación Manual,Alto,14015.11,Abierto,Charlie,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-06-10,2022-06-11 00:00:00
+Pago Urgente,Alto,24457.0,Cerrado,Bob,Operativo → Supervisor → Gerencia,0.25,Cumplido,2022-05-26,2022-05-26 06:00:00
+Transacción Internacional Compleja,Alto,16792.92,Abierto,Alice,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-10-31,2022-11-02 00:00:00
+Transacción con Disputa,Alto,23650.75,Cerrado,Bob,Operativo → Supervisor → Gerencia,3.0,Cumplido,2022-05-06,2022-05-09 00:00:00
+Aprobación Manual,Medio,47494.85,Cerrado,Charlie,Operativo → Supervisor → Gerencia,2.0,Cumplido,2022-08-09,2022-08-11 00:00:00
+Excepción Regulatoria,Alto,21601.87,Cerrado,Bob,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-03-07,2022-03-08 00:00:00
+Ajuste Contable,Alto,15271.71,Abierto,Charlie,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-11-01,2022-11-03 00:00:00
+Aprobación Manual,Medio,38578.01,Abierto,Alice,Operativo → Supervisor,2.0,Vencido,2022-12-25,2022-12-27 00:00:00
+Ajuste Contable,Medio,41811.67,Cerrado,Alice,Operativo → Supervisor → Gerencia,3.0,Cumplido,2022-02-01,2022-02-04 00:00:00
+Caso de Fuerza Mayor,Alto,22548.38,Cerrado,David,Operativo → Supervisor → Gerencia,0.5,Cumplido,2022-06-11,2022-06-11 12:00:00
+Pago Urgente,Alto,12010.33,Abierto,David,Operativo → Supervisor → Gerencia,0.25,Vencido,2022-07-28,2022-07-28 06:00:00
+Transacción Internacional Compleja,Alto,11746.72,Abierto,David,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-07-24,2022-07-26 00:00:00
+Transacción con Disputa,Medio,41850.96,En Proceso,David,Operativo → Supervisor → Gerencia,5.0,Vencido,2022-12-02,2022-12-07 00:00:00
+Transacción con Disputa,Alto,24160.88,Cerrado,David,Operativo → Supervisor → Gerencia,3.0,Cumplido,2022-10-20,2022-10-23 00:00:00
+Aprobación Manual,Medio,43353.29,Cerrado,Charlie,Operativo → Supervisor → Gerencia,2.0,Cumplido,2022-06-18,2022-06-20 00:00:00
+Aprobación Manual,Alto,19765.57,Cerrado,Alice,Operativo → Supervisor → Gerencia,1.0,Cumplido,2022-05-03,2022-05-04 00:00:00
+Transacción Internacional Compleja,Medio,43148.17,Cerrado,Charlie,Operativo → Supervisor → Gerencia,3.0,Cumplido,2022-08-15,2022-08-18 00:00:00
+Transacción Internacional Compleja,Medio,44484.5,Cerrado,Alice,Operativo → Supervisor → Gerencia,3.0,Cumplido,2022-11-17,2022-11-20 00:00:00
+Proveedor VIP,Alto,7375.66,Abierto,Charlie,Operativo → Supervisor → Gerencia,0.5,Vencido,2022-07-10,2022-07-10 12:00:00
+Excepción Regulatoria,Medio,25863.21,Abierto,David,Operativo → Supervisor,2.0,Vencido,2022-02-23,2022-02-25 00:00:00
+Excepción Regulatoria,Medio,39598.15,Cerrado,Alice,Operativo → Supervisor,2.0,Cumplido,2022-06-24,2022-06-26 00:00:00
+Excepción Regulatoria,Bajo,49237.84,Abierto,Alice,Operativo → Gerencia,3.0,Vencido,2022-04-23,2022-04-26 00:00:00
+Transacción Internacional Compleja,Alto,9822.79,Abierto,Alice,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-12-16,2022-12-18 00:00:00
+Transacción con Disputa,Alto,6568.82,Abierto,David,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-08-04,2022-08-07 00:00:00
+Excepción Regulatoria,Medio,27467.46,Abierto,Bob,Operativo → Supervisor,2.0,Vencido,2022-06-13,2022-06-15 00:00:00
+Proveedor VIP,Alto,16154.95,Cerrado,Charlie,Operativo → Supervisor → Gerencia,0.5,Cumplido,2022-06-03,2022-06-03 12:00:00
+Ajuste Contable,Medio,38380.76,Cerrado,David,Operativo → Supervisor,3.0,Cumplido,2022-06-20,2022-06-23 00:00:00
+Caso de Fuerza Mayor,Medio,34105.73,En Proceso,David,Operativo → Supervisor,1.0,Vencido,2022-08-15,2022-08-16 00:00:00
+Aprobación Manual,Medio,35362.63,Cerrado,Alice,Operativo → Supervisor,2.0,Cumplido,2022-03-23,2022-03-25 00:00:00
+Transacción con Disputa,Alto,5470.01,Abierto,Alice,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-08-31,2022-09-03 00:00:00
+Transacción con Disputa,Medio,35565.17,Cerrado,David,Operativo → Supervisor,5.0,Cumplido,2022-05-30,2022-06-04 00:00:00
+Transacción Internacional Compleja,Alto,11483.69,Cerrado,David,Operativo → Supervisor → Gerencia,2.0,Cumplido,2022-03-20,2022-03-22 00:00:00
+Aprobación Manual,Medio,38655.98,Cerrado,David,Operativo → Supervisor,2.0,Cumplido,2022-11-09,2022-11-11 00:00:00
+Ajuste Contable,Medio,26403.53,En Proceso,David,Operativo → Supervisor,3.0,Vencido,2022-01-28,2022-01-31 00:00:00
+Proveedor VIP,Alto,5924.85,Abierto,Charlie,Operativo → Supervisor → Gerencia,0.5,Vencido,2022-12-27,2022-12-27 12:00:00
+Ajuste Contable,Bajo,43675.72,Abierto,Alice,Operativo → Gerencia,5.0,Vencido,2022-03-15,2022-03-20 00:00:00
+Aprobación Manual,Medio,22355.96,Abierto,David,Operativo → Supervisor,2.0,Vencido,2022-04-23,2022-04-25 00:00:00
+Proveedor VIP,Alto,2460.06,Abierto,Bob,Operativo → Supervisor → Gerencia,0.5,Vencido,2022-08-05,2022-08-05 12:00:00
+Transacción con Disputa,Bajo,45050.09,Abierto,Charlie,Operativo → Gerencia,7.0,Vencido,2022-06-07,2022-06-14 00:00:00
+Ajuste Contable,Alto,7330.1,En Proceso,Bob,Operativo → Supervisor → Gerencia,2.0,Vencido,2022-08-09,2022-08-11 00:00:00
+Pago Urgente,Medio,29399.12,En Proceso,Bob,Operativo → Supervisor,0.5,Vencido,2022-08-14,2022-08-14 12:00:00
+Proveedor VIP,Medio,33601.69,Cerrado,Alice,Operativo → Supervisor,1.0,Cumplido,2022-07-01,2022-07-02 00:00:00
+Proveedor VIP,Medio,32148.54,Cerrado,Bob,Operativo → Supervisor,1.0,Cumplido,2022-05-23,2022-05-24 00:00:00
+Proveedor VIP,Medio,29096.58,En Proceso,David,Operativo → Supervisor,1.0,Vencido,2022-10-22,2022-10-23 00:00:00
+Transacción Internacional Compleja,Medio,17344.27,Abierto,Charlie,Operativo → Supervisor,3.0,Vencido,2022-01-23,2022-01-26 00:00:00
+Proveedor VIP,Alto,8300.48,Cerrado,Bob,Operativo → Supervisor → Gerencia,0.5,Cumplido,2022-04-26,2022-04-26 12:00:00
+Proveedor VIP,Bajo,46125.53,Abierto,Alice,Operativo → Gerencia,2.0,Vencido,2022-11-20,2022-11-22 00:00:00
+Excepción Regulatoria,Alto,6931.7,En Proceso,Alice,Operativo → Supervisor → Gerencia,1.0,Vencido,2022-11-04,2022-11-05 00:00:00
+Proveedor VIP,Medio,35286.95,Cerrado,David,Operativo → Supervisor,1.0,Cumplido,2022-12-19,2022-12-20 00:00:00
+Proveedor VIP,Medio,22734.55,Abierto,Charlie,Operativo → Supervisor,1.0,Vencido,2022-12-31,2023-01-01 00:00:00
+Pago Urgente,Medio,16864.8,Abierto,Charlie,Operativo → Supervisor,0.5,Vencido,2022-05-02,2022-05-02 12:00:00
+Proveedor VIP,Bajo,37967.36,Abierto,Alice,Operativo → Supervisor,2.0,Vencido,2022-03-21,2022-03-23 00:00:00
+Excepción Regulatoria,Bajo,38411.21,Abierto,Alice,Operativo → Supervisor,3.0,Vencido,2022-04-21,2022-04-24 00:00:00
+Excepción Regulatoria,Medio,20476.68,Abierto,Charlie,Operativo → Supervisor,2.0,Vencido,2022-11-16,2022-11-18 00:00:00
+Aprobación Manual,Bajo,41698.01,Abierto,Alice,Operativo → Gerencia,3.0,Vencido,2022-10-31,2022-11-03 00:00:00
+Transacción Internacional Compleja,Bajo,47366.82,Cerrado,David,Operativo → Gerencia,5.0,Cumplido,2022-03-13,2022-03-18 00:00:00
+Ajuste Contable,Bajo,40593.09,En Proceso,Alice,Operativo → Gerencia,5.0,Vencido,2022-02-08,2022-02-13 00:00:00
+Transacción con Disputa,Alto,2502.2,En Proceso,Bob,Operativo → Supervisor → Gerencia,3.0,Vencido,2022-11-21,2022-11-24 00:00:00
+Transacción con Disputa,Bajo,40127.18,Abierto,Alice,Operativo → Gerencia,7.0,Vencido,2022-10-04,2022-10-11 00:00:00
+Pago Urgente,Bajo,49280.13,Cerrado,David,Operativo → Gerencia,1.0,Cumplido,2022-07-14,2022-07-15 00:00:00
+Excepción Regulatoria,Medio,18245.17,Abierto,Charlie,Operativo → Supervisor,2.0,Vencido,2022-10-30,2022-11-01 00:00:00
+Proveedor VIP,Medio,16913.64,En Proceso,David,Operativo → Supervisor,1.0,Vencido,2022-01-11,2022-01-12 00:00:00
+Excepción Regulatoria,Medio,22079.77,En Proceso,Alice,Operativo → Supervisor,2.0,Vencido,2022-09-16,2022-09-18 00:00:00
+Proveedor VIP,Medio,13961.52,Abierto,David,Operativo → Supervisor,1.0,Vencido,2022-06-26,2022-06-27 00:00:00
+Transacción Internacional Compleja,Medio,19132.6,En Proceso,Charlie,Operativo → Supervisor,3.0,Vencido,2022-06-24,2022-06-27 00:00:00
+Ajuste Contable,Bajo,31871.09,Abierto,Bob,Operativo → Supervisor,5.0,Vencido,2022-01-15,2022-01-20 00:00:00
+Pago Urgente,Alto,5822.48,Cerrado,Charlie,Operativo → Supervisor → Gerencia,0.25,Cumplido,2022-12-01,2022-12-01 06:00:00
+Aprobación Manual,Bajo,31924.04,Abierto,Alice,Operativo → Supervisor,3.0,Vencido,2022-02-06,2022-02-09 00:00:00
+Proveedor VIP,Medio,15365.74,En Proceso,Charlie,Operativo → Supervisor,1.0,Vencido,2022-02-10,2022-02-11 00:00:00
+Ajuste Contable,Medio,26707.21,Cerrado,Alice,Operativo → Supervisor,3.0,Cumplido,2022-10-29,2022-11-01 00:00:00
+Excepción Regulatoria,Medio,23280.27,Cerrado,David,Operativo → Supervisor,2.0,Cumplido,2022-06-17,2022-06-19 00:00:00
+Aprobación Manual,Medio,19795.71,En Proceso,Bob,Operativo → Supervisor,2.0,Vencido,2022-10-10,2022-10-12 00:00:00
+Proveedor VIP,Bajo,43165.33,En Proceso,Alice,Operativo → Gerencia,2.0,Vencido,2022-12-12,2022-12-14 00:00:00
+Caso de Fuerza Mayor,Alto,3966.95,Cerrado,Bob,Operativo → Supervisor → Gerencia,0.5,Cumplido,2022-11-27,2022-11-27 12:00:00
+Proveedor VIP,Bajo,36177.8,Abierto,David,Operativo → Supervisor,2.0,Vencido,2022-10-18,2022-10-20 00:00:00
+Ajuste Contable,Medio,20622.16,En Proceso,Alice,Operativo → Supervisor,3.0,Vencido,2022-12-06,2022-12-09 00:00:00
+Aprobación Manual,Bajo,40269.41,En Proceso,Charlie,Operativo → Gerencia,3.0,Vencido,2022-08-22,2022-08-25 00:00:00
+Transacción Internacional Compleja,Medio,18236.18,Cerrado,David,Operativo → Supervisor,3.0,Cumplido,2022-01-04,2022-01-07 00:00:00
+Pago Urgente,Medio,18564.7,Cerrado,Bob,Operativo → Supervisor,0.5,Cumplido,2022-01-29,2022-01-29 12:00:00
+Pago Urgente,Bajo,35173.45,Abierto,David,Operativo → Supervisor,1.0,Vencido,2022-10-11,2022-10-12 00:00:00
+Pago Urgente,Bajo,37698.93,En Proceso,Charlie,Operativo → Supervisor,1.0,Vencido,2022-06-07,2022-06-08 00:00:00
+Caso de Fuerza Mayor,Medio,17844.11,En Proceso,Charlie,Operativo → Supervisor,1.0,Vencido,2022-10-11,2022-10-12 00:00:00
+Excepción Regulatoria,Medio,9888.87,Abierto,David,Operativo → Supervisor,2.0,Vencido,2022-06-29,2022-07-01 00:00:00
+Excepción Regulatoria,Bajo,41409.8,Cerrado,Charlie,Operativo → Gerencia,3.0,Cumplido,2022-05-12,2022-05-15 00:00:00
+Caso de Fuerza Mayor,Bajo,39152.7,En Proceso,Alice,Operativo → Supervisor,2.0,Vencido,2022-10-04,2022-10-06 00:00:00
+Caso de Fuerza Mayor,Bajo,28664.32,Abierto,Bob,Operativo → Supervisor,2.0,Vencido,2022-03-06,2022-03-08 00:00:00
+Ajuste Contable,Medio,13114.75,En Proceso,Charlie,Operativo → Supervisor,3.0,Vencido,2022-05-13,2022-05-16 00:00:00
+Proveedor VIP,Medio,14879.08,En Proceso,David,Operativo → Supervisor,1.0,Vencido,2022-08-09,2022-08-10 00:00:00
+Caso de Fuerza Mayor,Bajo,31436.8,En Proceso,Alice,Operativo → Supervisor,2.0,Vencido,2022-01-05,2022-01-07 00:00:00
+Ajuste Contable,Medio,12296.36,En Proceso,Bob,Operativo → Supervisor,3.0,Vencido,2022-06-06,2022-06-09 00:00:00
+Proveedor VIP,Bajo,28047.62,Abierto,Alice,Operativo → Supervisor,2.0,Vencido,2022-05-03,2022-05-05 00:00:00
+Proveedor VIP,Medio,17636.15,Cerrado,Bob,Operativo → Supervisor,1.0,Cumplido,2022-06-08,2022-06-09 00:00:00
+Transacción con Disputa,Bajo,31591.56,En Proceso,Charlie,Operativo → Supervisor,7.0,Vencido,2022-03-06,2022-03-13 00:00:00
+Transacción Internacional Compleja,Medio,6125.39,Abierto,Charlie,Operativo → Supervisor,3.0,Vencido,2022-06-14,2022-06-17 00:00:00
+Pago Urgente,Bajo,29918.84,Abierto,David,Operativo → Supervisor,1.0,Vencido,2022-09-15,2022-09-16 00:00:00
+Proveedor VIP,Medio,13481.4,En Proceso,David,Operativo → Supervisor,1.0,Vencido,2022-10-23,2022-10-24 00:00:00
+Excepción Regulatoria,Medio,10838.94,En Proceso,Charlie,Operativo → Supervisor,2.0,Vencido,2022-08-01,2022-08-03 00:00:00
+Caso de Fuerza Mayor,Bajo,35389.2,En Proceso,Alice,Operativo → Supervisor,2.0,Vencido,2022-12-10,2022-12-12 00:00:00
+Caso de Fuerza Mayor,Bajo,37360.03,Cerrado,Alice,Operativo → Supervisor,2.0,Cumplido,2022-07-23,2022-07-25 00:00:00
+Ajuste Contable,Medio,11393.87,Cerrado,Charlie,Operativo → Supervisor,3.0,Cumplido,2022-04-04,2022-04-07 00:00:00
+Ajuste Contable,Bajo,32443.52,En Proceso,Alice,Operativo → Supervisor,5.0,Vencido,2022-12-06,2022-12-11 00:00:00
+Transacción con Disputa,Medio,11320.85,Cerrado,Bob,Operativo → Supervisor,5.0,Cumplido,2022-05-25,2022-05-30 00:00:00
+Aprobación Manual,Medio,12196.19,Cerrado,David,Operativo → Supervisor,2.0,Cumplido,2022-08-20,2022-08-22 00:00:00
+Transacción Internacional Compleja,Medio,1949.78,En Proceso,Alice,Operativo → Supervisor,3.0,Vencido,2022-02-11,2022-02-14 00:00:00
+Pago Urgente,Bajo,20815.66,Abierto,Charlie,Operativo,1.0,Vencido,2022-05-31,2022-06-01 00:00:00
+Transacción Internacional Compleja,Medio,12775.87,Cerrado,David,Operativo → Supervisor,3.0,Cumplido,2022-10-12,2022-10-15 00:00:00
+Excepción Regulatoria,Medio,1159.02,En Proceso,Charlie,Operativo → Supervisor,2.0,Vencido,2022-03-22,2022-03-24 00:00:00
+Pago Urgente,Bajo,28579.14,Cerrado,Alice,Operativo → Supervisor,1.0,Cumplido,2022-03-18,2022-03-19 00:00:00
+Excepción Regulatoria,Bajo,22293.62,En Proceso,Charlie,Operativo,3.0,Vencido,2022-02-25,2022-02-28 00:00:00
+Aprobación Manual,Bajo,27567.56,En Proceso,Charlie,Operativo → Supervisor,3.0,Vencido,2022-10-24,2022-10-27 00:00:00
+Proveedor VIP,Medio,6680.16,Cerrado,Alice,Operativo → Supervisor,1.0,Cumplido,2022-05-10,2022-05-11 00:00:00
+Ajuste Contable,Bajo,27911.76,Cerrado,David,Operativo → Supervisor,5.0,Cumplido,2022-04-15,2022-04-20 00:00:00
+Ajuste Contable,Bajo,30906.25,Cerrado,Charlie,Operativo → Supervisor,5.0,Cumplido,2022-08-26,2022-08-31 00:00:00
+Excepción Regulatoria,Medio,4201.83,Cerrado,Alice,Operativo → Supervisor,2.0,Cumplido,2022-02-28,2022-03-02 00:00:00
+Transacción con Disputa,Bajo,13542.44,Abierto,Bob,Operativo,7.0,Vencido,2022-02-22,2022-03-01 00:00:00
+Transacción con Disputa,Medio,2258.24,Cerrado,David,Operativo → Supervisor,5.0,Cumplido,2022-02-25,2022-03-02 00:00:00
+Excepción Regulatoria,Bajo,27617.68,Cerrado,Alice,Operativo → Supervisor,3.0,Cumplido,2022-08-13,2022-08-16 00:00:00
+Proveedor VIP,Medio,6629.38,Cerrado,Bob,Operativo → Supervisor,1.0,Cumplido,2022-10-12,2022-10-13 00:00:00
+Proveedor VIP,Bajo,23733.7,En Proceso,David,Operativo,2.0,Vencido,2022-11-18,2022-11-20 00:00:00
+Aprobación Manual,Bajo,15954.35,Abierto,Bob,Operativo,3.0,Vencido,2022-08-24,2022-08-27 00:00:00
+Aprobación Manual,Bajo,22982.06,Cerrado,Bob,Operativo,3.0,Cumplido,2022-04-08,2022-04-11 00:00:00
+Caso de Fuerza Mayor,Bajo,13958.47,Abierto,David,Operativo,2.0,Vencido,2022-07-22,2022-07-24 00:00:00
+Transacción con Disputa,Bajo,17932.72,En Proceso,Charlie,Operativo,7.0,Vencido,2022-08-15,2022-08-22 00:00:00
+Pago Urgente,Bajo,20914.29,Cerrado,Bob,Operativo,1.0,Cumplido,2022-05-02,2022-05-03 00:00:00
+Excepción Regulatoria,Medio,2526.38,Cerrado,David,Operativo → Supervisor,2.0,Cumplido,2022-11-26,2022-11-28 00:00:00
+Excepción Regulatoria,Bajo,15811.11,En Proceso,Bob,Operativo,3.0,Vencido,2022-07-04,2022-07-07 00:00:00
+Excepción Regulatoria,Medio,1019.89,Cerrado,Bob,Operativo → Supervisor,2.0,Cumplido,2022-10-08,2022-10-10 00:00:00
+Ajuste Contable,Bajo,13084.75,En Proceso,Charlie,Operativo,5.0,Vencido,2022-05-16,2022-05-21 00:00:00
+Proveedor VIP,Bajo,4330.08,Abierto,David,Operativo,2.0,Vencido,2022-02-05,2022-02-07 00:00:00
+Proveedor VIP,Bajo,11937.33,En Proceso,Alice,Operativo,2.0,Vencido,2022-05-21,2022-05-23 00:00:00
+Proveedor VIP,Bajo,18589.0,Cerrado,Charlie,Operativo,2.0,Cumplido,2022-07-15,2022-07-17 00:00:00
+Proveedor VIP,Bajo,20043.65,Cerrado,David,Operativo,2.0,Cumplido,2022-10-03,2022-10-05 00:00:00
+Ajuste Contable,Bajo,18747.21,Cerrado,Bob,Operativo,5.0,Cumplido,2022-08-10,2022-08-15 00:00:00
+Pago Urgente,Bajo,8839.12,En Proceso,David,Operativo,1.0,Vencido,2022-03-20,2022-03-21 00:00:00
+Ajuste Contable,Bajo,4137.27,Abierto,Bob,Operativo,5.0,Vencido,2022-05-07,2022-05-12 00:00:00
+Excepción Regulatoria,Bajo,13520.46,Cerrado,Alice,Operativo,3.0,Cumplido,2022-03-12,2022-03-15 00:00:00
+Proveedor VIP,Bajo,18360.58,Cerrado,David,Operativo,2.0,Cumplido,2022-12-04,2022-12-06 00:00:00
+Caso de Fuerza Mayor,Bajo,4689.67,Abierto,David,Operativo,2.0,Vencido,2022-08-28,2022-08-30 00:00:00
+Pago Urgente,Bajo,9618.45,En Proceso,David,Operativo,1.0,Vencido,2022-08-06,2022-08-07 00:00:00
+Aprobación Manual,Bajo,8230.15,En Proceso,Alice,Operativo,3.0,Vencido,2022-06-18,2022-06-21 00:00:00
+Caso de Fuerza Mayor,Bajo,14645.39,Cerrado,Bob,Operativo,2.0,Cumplido,2022-09-21,2022-09-23 00:00:00
+Aprobación Manual,Bajo,12688.7,Cerrado,Alice,Operativo,3.0,Cumplido,2022-11-15,2022-11-18 00:00:00
+Transacción con Disputa,Bajo,9788.67,Cerrado,David,Operativo,7.0,Cumplido,2022-07-31,2022-08-07 00:00:00
+Caso de Fuerza Mayor,Bajo,6187.29,Cerrado,David,Operativo,2.0,Cumplido,2022-08-12,2022-08-14 00:00:00
+Pago Urgente,Bajo,7649.27,Cerrado,Bob,Operativo,1.0,Cumplido,2022-11-26,2022-11-27 00:00:00
+Caso de Fuerza Mayor,Bajo,2572.91,Cerrado,David,Operativo,2.0,Cumplido,2022-04-28,2022-04-30 00:00:00

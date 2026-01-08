@@ -1,0 +1,201 @@
+tipo_caso,nivel_complejidad,monto_involucrado,estado,responsable,fecha_incidencia,score_prioridad,nivel_urgencia,segmento_riesgo
+Excepción Regulatoria,Alto,47455.07,Abierto,Bob,2022-01-06,98.55435856499298,Crítico,Riesgo Crítico
+Aprobación Manual,Alto,47906.99,Abierto,Alice,2022-02-05,98.41670908061432,Crítico,Riesgo Crítico
+Aprobación Manual,Alto,46729.71,Abierto,Bob,2022-05-16,96.34152571300562,Crítico,Riesgo Crítico
+Transacción Internacional Compleja,Alto,47022.62,Abierto,Charlie,2022-10-02,94.61903516852254,Crítico,Riesgo Crítico
+Aprobación Manual,Alto,49762.32,En Proceso,Charlie,2022-06-09,94.50683208624618,Crítico,Riesgo Alto
+Ajuste Contable,Alto,43595.72,Abierto,David,2022-05-23,94.35832864927241,Crítico,Riesgo Crítico
+Excepción Regulatoria,Alto,45361.49,Abierto,Alice,2022-09-08,93.94642319335574,Crítico,Riesgo Crítico
+Transacción Internacional Compleja,Alto,42419.89,Abierto,David,2022-05-09,93.84139565033139,Crítico,Riesgo Crítico
+Ajuste Contable,Alto,49432.29,En Proceso,Bob,2022-07-15,93.81625526933888,Crítico,Riesgo Alto
+Aprobación Manual,Alto,40521.58,Abierto,Alice,2022-06-08,92.28822778056993,Crítico,Riesgo Crítico
+Aprobación Manual,Alto,36863.47,Abierto,Bob,2022-02-10,91.6970091212875,Crítico,Riesgo Alto
+Transacción con Disputa,Alto,40898.0,Abierto,David,2022-08-12,91.62696337741507,Crítico,Riesgo Crítico
+Aprobación Manual,Alto,41368.91,En Proceso,Charlie,2022-02-02,91.18654371660125,Crítico,Riesgo Alto
+Pago Urgente,Alto,46049.97,En Proceso,Bob,2022-09-02,91.10972121152723,Crítico,Riesgo Alto
+Proveedor VIP,Alto,38347.29,Abierto,Bob,2022-10-02,89.3939767213649,Crítico,Riesgo Crítico
+Pago Urgente,Alto,44354.63,Cerrado,Charlie,2022-02-28,89.29628634011651,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,44028.22,Cerrado,Alice,2022-02-23,89.1679991000986,Crítico,Riesgo Alto
+Pago Urgente,Alto,38374.12,En Proceso,Bob,2022-02-20,89.13691209961195,Crítico,Riesgo Alto
+Ajuste Contable,Alto,41697.89,En Proceso,David,2022-09-16,88.29725315706423,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Alto,36202.01,Abierto,Bob,2022-10-12,87.96528550649434,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,42078.52,En Proceso,Alice,2022-12-04,87.44726756126816,Crítico,Riesgo Alto
+Proveedor VIP,Alto,45390.21,Cerrado,Charlie,2022-09-19,87.14678105138836,Crítico,Riesgo Alto
+Pago Urgente,Alto,34980.09,Abierto,Bob,2022-12-03,86.51895364937869,Crítico,Riesgo Alto
+Aprobación Manual,Alto,39225.7,Cerrado,Bob,2022-02-22,86.28915388539382,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,38057.17,Cerrado,David,2022-01-21,86.022519237699,Crítico,Riesgo Alto
+Pago Urgente,Alto,32844.34,En Proceso,David,2022-04-12,85.10966345373849,Crítico,Riesgo Alto
+Transacción con Disputa,Alto,31639.71,En Proceso,Bob,2022-02-24,85.02620419504154,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Alto,23902.12,Abierto,Alice,2022-03-26,83.28943378535915,Crítico,Riesgo Alto
+Aprobación Manual,Alto,33401.9,Cerrado,Alice,2022-02-05,83.01378188768736,Crítico,Riesgo Alto
+Transacción con Disputa,Alto,32872.41,En Proceso,David,2022-09-25,82.85881015159387,Crítico,Riesgo Alto
+Ajuste Contable,Alto,28484.44,Abierto,Alice,2022-12-28,82.26516309256512,Crítico,Riesgo Alto
+Proveedor VIP,Alto,30210.22,En Proceso,Bob,2022-08-02,81.99310651370561,Crítico,Riesgo Alto
+Transacción con Disputa,Alto,26257.15,En Proceso,Charlie,2022-02-13,81.934619115674,Crítico,Riesgo Alto
+Ajuste Contable,Alto,26856.02,En Proceso,David,2022-03-26,81.73520282012697,Crítico,Riesgo Alto
+Pago Urgente,Alto,22725.77,Abierto,Charlie,2022-07-09,81.14650453587201,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,34681.86,Cerrado,Bob,2022-08-21,81.09343127160766,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,24992.38,Abierto,David,2022-10-24,81.04991085597231,Crítico,Riesgo Alto
+Proveedor VIP,Medio,49809.95,En Proceso,Charlie,2022-07-15,80.7103825136612,Crítico,Riesgo Alto
+Aprobación Manual,Alto,25224.48,Abierto,Bob,2022-12-23,80.37003007173436,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,32288.91,Cerrado,Alice,2022-07-15,80.15764756813327,Crítico,Riesgo Alto
+Aprobación Manual,Medio,44327.51,En Proceso,Charlie,2022-01-13,79.9083675548026,Crítico,Riesgo Alto
+Caso de Fuerza Mayor,Alto,23148.27,Abierto,Alice,2022-10-31,79.84359471663268,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Medio,43388.3,En Proceso,Alice,2022-01-05,79.45198103729983,Crítico,Riesgo Alto
+Ajuste Contable,Medio,40294.67,Abierto,Bob,2022-04-28,79.37833827141993,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Alto,21911.44,En Proceso,Charlie,2022-02-18,79.24893846373455,Crítico,Riesgo Alto
+Ajuste Contable,Alto,30746.72,Cerrado,Charlie,2022-08-06,78.92825658195656,Crítico,Riesgo Alto
+Ajuste Contable,Alto,22553.76,En Proceso,Charlie,2022-05-03,78.62487196621245,Crítico,Riesgo Alto
+Aprobación Manual,Alto,31349.69,Cerrado,Charlie,2022-11-01,78.10289437199978,Crítico,Riesgo Alto
+Transacción con Disputa,Alto,19091.58,En Proceso,Bob,2022-01-19,77.9604030191984,Crítico,Riesgo Alto
+Caso de Fuerza Mayor,Medio,46525.83,Cerrado,Bob,2022-01-10,77.94004244559804,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Alto,25385.7,En Proceso,Bob,2022-12-16,77.22942623491126,Crítico,Riesgo Alto
+Proveedor VIP,Alto,22169.4,Cerrado,Charlie,2022-01-21,76.4534853398533,Crítico,Riesgo Alto
+Ajuste Contable,Alto,13511.01,Abierto,David,2022-05-11,76.40256409969487,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Alto,25792.08,Cerrado,Alice,2022-07-09,76.32664357770335,Crítico,Riesgo Alto
+Aprobación Manual,Alto,14015.11,Abierto,Charlie,2022-06-10,76.29634207107556,Crítico,Riesgo Alto
+Pago Urgente,Alto,24457.0,Cerrado,Bob,2022-05-26,76.12363207305066,Crítico,Riesgo Alto
+Transacción Internacional Compleja,Alto,16792.92,Abierto,Alice,2022-10-31,76.01583540348341,Crítico,Riesgo Alto
+Transacción con Disputa,Alto,23650.75,Cerrado,Bob,2022-05-06,75.91126036732288,Crítico,Riesgo Alto
+Aprobación Manual,Medio,47494.85,Cerrado,Charlie,2022-08-09,75.64115916346668,Crítico,Riesgo Alto
+Excepción Regulatoria,Alto,21601.87,Cerrado,Bob,2022-03-07,75.49691399413544,Crítico,Riesgo Alto
+Ajuste Contable,Alto,15271.71,Abierto,Charlie,2022-11-01,75.08596569275664,Crítico,Riesgo Alto
+Aprobación Manual,Medio,38578.01,Abierto,Alice,2022-12-25,75.05206259209837,Crítico,Riesgo Alto
+Ajuste Contable,Medio,41811.67,Cerrado,Alice,2022-02-01,74.8002078633125,Alto,Riesgo Alto
+Caso de Fuerza Mayor,Alto,22548.38,Cerrado,David,2022-06-11,74.7555114311904,Alto,Riesgo Alto
+Pago Urgente,Alto,12010.33,Abierto,David,2022-07-28,74.43314682002467,Alto,Riesgo Alto
+Transacción Internacional Compleja,Alto,11746.72,Abierto,David,2022-07-24,74.32902214596369,Alto,Riesgo Alto
+Transacción con Disputa,Medio,41850.96,En Proceso,David,2022-12-02,74.00419967882623,Alto,Riesgo Alto
+Transacción con Disputa,Alto,24160.88,Cerrado,David,2022-10-20,73.93708544373888,Alto,Riesgo Alto
+Aprobación Manual,Medio,43353.29,Cerrado,Charlie,2022-06-18,73.85712439704629,Alto,Riesgo Alto
+Aprobación Manual,Alto,19765.57,Cerrado,Alice,2022-05-03,73.61224162495196,Alto,Riesgo Alto
+Transacción Internacional Compleja,Medio,43148.17,Cerrado,Charlie,2022-08-15,72.94123308871886,Alto,Riesgo Alto
+Transacción Internacional Compleja,Medio,44484.5,Cerrado,Alice,2022-11-17,72.46193734570898,Alto,Riesgo Alto
+Proveedor VIP,Alto,7375.66,Abierto,Charlie,2022-07-10,71.88763630175785,Alto,Riesgo Alto
+Excepción Regulatoria,Medio,25863.21,Abierto,David,2022-02-23,71.56074124632977,Alto,Riesgo Medio
+Excepción Regulatoria,Medio,39598.15,Cerrado,Alice,2022-06-24,71.51347653578793,Alto,Riesgo Alto
+Excepción Regulatoria,Bajo,49237.84,Abierto,Alice,2022-04-23,71.49968656272327,Alto,Riesgo Alto
+Transacción Internacional Compleja,Alto,9822.79,Abierto,Alice,2022-12-16,71.1893853729282,Alto,Riesgo Alto
+Transacción con Disputa,Alto,6568.82,Abierto,David,2022-08-04,71.06015514698144,Alto,Riesgo Alto
+Excepción Regulatoria,Medio,27467.46,Abierto,Bob,2022-06-13,71.02423161804138,Alto,Riesgo Medio
+Proveedor VIP,Alto,16154.95,Cerrado,Charlie,2022-06-03,71.01410655892118,Alto,Riesgo Alto
+Ajuste Contable,Medio,38380.76,Cerrado,David,2022-06-20,70.83490037161305,Alto,Riesgo Alto
+Caso de Fuerza Mayor,Medio,34105.73,En Proceso,David,2022-08-15,70.82840154937115,Alto,Riesgo Medio
+Aprobación Manual,Medio,35362.63,Cerrado,Alice,2022-03-23,70.23295995620337,Alto,Riesgo Medio
+Transacción con Disputa,Alto,5470.01,Abierto,Alice,2022-08-31,70.02950118043492,Alto,Riesgo Alto
+Transacción con Disputa,Medio,35565.17,Cerrado,David,2022-05-30,69.42598588272274,Alto,Riesgo Medio
+Transacción Internacional Compleja,Alto,11483.69,Cerrado,David,2022-03-20,69.22524679969767,Alto,Riesgo Alto
+Aprobación Manual,Medio,38655.98,Cerrado,David,2022-11-09,69.06077172282666,Alto,Riesgo Alto
+Ajuste Contable,Medio,26403.53,En Proceso,David,2022-01-28,68.90802812528673,Alto,Riesgo Medio
+Proveedor VIP,Alto,5924.85,Abierto,Charlie,2022-12-27,68.69142458846733,Alto,Riesgo Alto
+Ajuste Contable,Bajo,43675.72,Abierto,Alice,2022-03-15,68.68246807755624,Alto,Riesgo Alto
+Aprobación Manual,Medio,22355.96,Abierto,David,2022-04-23,68.64235116420684,Alto,Riesgo Medio
+Proveedor VIP,Alto,2460.06,Abierto,Bob,2022-08-05,68.57183175380771,Alto,Riesgo Alto
+Transacción con Disputa,Bajo,45050.09,Abierto,Charlie,2022-06-07,68.36269544143848,Alto,Riesgo Alto
+Ajuste Contable,Alto,7330.1,En Proceso,Bob,2022-08-09,68.11702660226824,Alto,Riesgo Alto
+Pago Urgente,Medio,29399.12,En Proceso,Bob,2022-08-14,68.0073219015862,Alto,Riesgo Medio
+Proveedor VIP,Medio,33601.69,Cerrado,Alice,2022-07-01,67.80624441480208,Alto,Riesgo Medio
+Proveedor VIP,Medio,32148.54,Cerrado,Bob,2022-05-23,67.46381460137634,Alto,Riesgo Medio
+Proveedor VIP,Medio,29096.58,En Proceso,David,2022-10-22,66.8824823454497,Alto,Riesgo Medio
+Transacción Internacional Compleja,Medio,17344.27,Abierto,Charlie,2022-01-23,66.85337209081445,Alto,Riesgo Medio
+Proveedor VIP,Alto,8300.48,Cerrado,Bob,2022-04-26,66.80256899096419,Alto,Riesgo Alto
+Proveedor VIP,Bajo,46125.53,Abierto,Alice,2022-11-20,66.74266188514787,Alto,Riesgo Alto
+Excepción Regulatoria,Alto,6931.7,En Proceso,Alice,2022-11-04,66.68854995433271,Alto,Riesgo Alto
+Proveedor VIP,Medio,35286.95,Cerrado,David,2022-12-19,66.48519290950587,Alto,Riesgo Medio
+Proveedor VIP,Medio,22734.55,Abierto,Charlie,2022-12-31,65.42774892009336,Alto,Riesgo Medio
+Pago Urgente,Medio,16864.8,Abierto,Charlie,2022-05-02,65.21213342296583,Alto,Riesgo Medio
+Proveedor VIP,Bajo,37967.36,Abierto,Alice,2022-03-21,65.16241670655737,Alto,Riesgo Medio
+Excepción Regulatoria,Bajo,38411.21,Abierto,Alice,2022-04-21,65.00624554532874,Alto,Riesgo Alto
+Excepción Regulatoria,Medio,20476.68,Abierto,Charlie,2022-11-16,64.68261207297023,Alto,Riesgo Medio
+Aprobación Manual,Bajo,41698.01,Abierto,Alice,2022-10-31,64.34923800008642,Alto,Riesgo Alto
+Transacción Internacional Compleja,Bajo,47366.82,Cerrado,David,2022-03-13,64.26623385652802,Alto,Riesgo Alto
+Ajuste Contable,Bajo,40593.09,En Proceso,Alice,2022-02-08,63.97064175082494,Alto,Riesgo Alto
+Transacción con Disputa,Alto,2502.2,En Proceso,Bob,2022-11-21,63.788469055579725,Alto,Riesgo Alto
+Transacción con Disputa,Bajo,40127.18,Abierto,Alice,2022-10-04,63.77199635541469,Alto,Riesgo Alto
+Pago Urgente,Bajo,49280.13,Cerrado,David,2022-07-14,63.73827213138781,Alto,Riesgo Alto
+Excepción Regulatoria,Medio,18245.17,Abierto,Charlie,2022-10-30,63.57083791063604,Alto,Riesgo Medio
+Proveedor VIP,Medio,16913.64,En Proceso,David,2022-01-11,63.42460934174733,Alto,Riesgo Medio
+Excepción Regulatoria,Medio,22079.77,En Proceso,Alice,2022-09-16,63.14813602952912,Alto,Riesgo Medio
+Proveedor VIP,Medio,13961.52,Abierto,David,2022-06-26,62.71215281909489,Alto,Riesgo Medio
+Transacción Internacional Compleja,Medio,19132.6,En Proceso,Charlie,2022-06-24,62.520628052034525,Alto,Riesgo Medio
+Ajuste Contable,Bajo,31871.09,Abierto,Bob,2022-01-15,62.378676647752314,Alto,Riesgo Medio
+Pago Urgente,Alto,5822.48,Cerrado,Charlie,2022-12-01,62.318292822822826,Alto,Riesgo Alto
+Aprobación Manual,Bajo,31924.04,Abierto,Alice,2022-02-06,62.11002141818648,Alto,Riesgo Medio
+Proveedor VIP,Medio,15365.74,En Proceso,Charlie,2022-02-10,62.082489666171945,Alto,Riesgo Medio
+Ajuste Contable,Medio,26707.21,Cerrado,Alice,2022-10-29,62.01442860816697,Alto,Riesgo Medio
+Excepción Regulatoria,Medio,23280.27,Cerrado,David,2022-06-17,61.781020401716326,Alto,Riesgo Medio
+Aprobación Manual,Medio,19795.71,En Proceso,Bob,2022-10-10,61.444602274776486,Alto,Riesgo Medio
+Proveedor VIP,Bajo,43165.33,En Proceso,Alice,2022-12-12,61.325885313025644,Alto,Riesgo Alto
+Caso de Fuerza Mayor,Alto,3966.95,Cerrado,Bob,2022-11-27,61.25537176370225,Alto,Riesgo Alto
+Proveedor VIP,Bajo,36177.8,Abierto,David,2022-10-18,61.202070202720314,Alto,Riesgo Medio
+Ajuste Contable,Medio,20622.16,En Proceso,Alice,2022-12-06,61.16367574352298,Alto,Riesgo Medio
+Aprobación Manual,Bajo,40269.41,En Proceso,Charlie,2022-08-22,61.111758323442054,Alto,Riesgo Alto
+Transacción Internacional Compleja,Medio,18236.18,Cerrado,David,2022-01-04,60.983456116699585,Alto,Riesgo Medio
+Pago Urgente,Medio,18564.7,Cerrado,Bob,2022-01-29,60.839790143428075,Alto,Riesgo Medio
+Pago Urgente,Bajo,35173.45,Abierto,David,2022-10-11,60.69278935792324,Alto,Riesgo Medio
+Pago Urgente,Bajo,37698.93,En Proceso,Charlie,2022-06-07,60.6018370854942,Alto,Riesgo Medio
+Caso de Fuerza Mayor,Medio,17844.11,En Proceso,Charlie,2022-10-11,60.255513271518815,Alto,Riesgo Medio
+Excepción Regulatoria,Medio,9888.87,Abierto,David,2022-06-29,60.218255688231636,Alto,Riesgo Medio
+Excepción Regulatoria,Bajo,41409.8,Cerrado,Charlie,2022-05-12,59.858712309751674,Alto,Riesgo Alto
+Caso de Fuerza Mayor,Bajo,39152.7,En Proceso,Alice,2022-10-04,59.85174414342358,Alto,Riesgo Alto
+Caso de Fuerza Mayor,Bajo,28664.32,Abierto,Bob,2022-03-06,59.764213274656974,Alto,Riesgo Medio
+Ajuste Contable,Medio,13114.75,En Proceso,Charlie,2022-05-13,59.46991186999051,Alto,Riesgo Medio
+Proveedor VIP,Medio,14879.08,En Proceso,David,2022-08-09,59.33036316119538,Alto,Riesgo Medio
+Caso de Fuerza Mayor,Bajo,31436.8,En Proceso,Alice,2022-01-05,58.920387115469616,Alto,Riesgo Medio
+Ajuste Contable,Medio,12296.36,En Proceso,Bob,2022-06-06,58.649135475966006,Alto,Riesgo Medio
+Proveedor VIP,Bajo,28047.62,Abierto,Alice,2022-05-03,58.60043173556239,Alto,Riesgo Medio
+Proveedor VIP,Medio,17636.15,Cerrado,Bob,2022-06-08,58.504578128241405,Alto,Riesgo Medio
+Transacción con Disputa,Bajo,31591.56,En Proceso,Charlie,2022-03-06,58.193925276643185,Alto,Riesgo Medio
+Transacción Internacional Compleja,Medio,6125.39,Abierto,Charlie,2022-06-14,58.15646998009928,Alto,Riesgo Medio
+Pago Urgente,Bajo,29918.84,Abierto,David,2022-09-15,57.88318522748684,Alto,Riesgo Medio
+Proveedor VIP,Medio,13481.4,En Proceso,David,2022-10-23,57.46396528615102,Alto,Riesgo Medio
+Excepción Regulatoria,Medio,10838.94,En Proceso,Charlie,2022-08-01,57.006319679572,Alto,Riesgo Medio
+Caso de Fuerza Mayor,Bajo,35389.2,En Proceso,Alice,2022-12-10,56.66972781027023,Alto,Riesgo Medio
+Caso de Fuerza Mayor,Bajo,37360.03,Cerrado,Alice,2022-07-23,56.435972607290154,Alto,Riesgo Medio
+Ajuste Contable,Medio,11393.87,Cerrado,Charlie,2022-04-04,55.63289780850455,Alto,Riesgo Medio
+Ajuste Contable,Bajo,32443.52,En Proceso,Alice,2022-12-06,54.950221068971686,Medio,Riesgo Medio
+Transacción con Disputa,Medio,11320.85,Cerrado,Bob,2022-05-25,54.892197332223716,Medio,Riesgo Medio
+Aprobación Manual,Medio,12196.19,Cerrado,David,2022-08-20,54.23088065935343,Medio,Riesgo Medio
+Transacción Internacional Compleja,Medio,1949.78,En Proceso,Alice,2022-02-11,53.98853928481613,Medio,Riesgo Medio
+Pago Urgente,Bajo,20815.66,Abierto,Charlie,2022-05-31,53.86218593650421,Medio,Riesgo Bajo
+Transacción Internacional Compleja,Medio,12775.87,Cerrado,David,2022-10-12,53.85597200587849,Medio,Riesgo Medio
+Excepción Regulatoria,Medio,1159.02,En Proceso,Charlie,2022-03-22,52.97948611140891,Medio,Riesgo Medio
+Pago Urgente,Bajo,28579.14,Cerrado,Alice,2022-03-18,52.882309179047496,Medio,Riesgo Medio
+Excepción Regulatoria,Bajo,22293.62,En Proceso,Charlie,2022-02-25,52.71682630706639,Medio,Riesgo Bajo
+Aprobación Manual,Bajo,27567.56,En Proceso,Charlie,2022-10-24,52.600914219758046,Medio,Riesgo Medio
+Proveedor VIP,Medio,6680.16,Cerrado,Alice,2022-05-10,52.30207742580368,Medio,Riesgo Medio
+Ajuste Contable,Bajo,27911.76,Cerrado,David,2022-04-15,52.09783968371978,Medio,Riesgo Medio
+Ajuste Contable,Bajo,30906.25,Cerrado,Charlie,2022-08-26,52.08444908386395,Medio,Riesgo Medio
+Excepción Regulatoria,Medio,4201.83,Cerrado,Alice,2022-02-28,51.77935113607259,Medio,Riesgo Medio
+Transacción con Disputa,Bajo,13542.44,Abierto,Bob,2022-02-22,50.8204011562704,Medio,Riesgo Bajo
+Transacción con Disputa,Medio,2258.24,Cerrado,David,2022-02-25,50.649731278864195,Medio,Riesgo Medio
+Excepción Regulatoria,Bajo,27617.68,Cerrado,Alice,2022-08-13,50.28137418359974,Medio,Riesgo Medio
+Proveedor VIP,Medio,6629.38,Cerrado,Bob,2022-10-12,50.15400683626881,Medio,Riesgo Medio
+Proveedor VIP,Bajo,23733.7,En Proceso,David,2022-11-18,49.9502913031449,Medio,Riesgo Bajo
+Aprobación Manual,Bajo,15954.35,Abierto,Bob,2022-08-24,49.77306874577812,Medio,Riesgo Bajo
+Aprobación Manual,Bajo,22982.06,Cerrado,Bob,2022-04-08,49.224362528747726,Medio,Riesgo Bajo
+Caso de Fuerza Mayor,Bajo,13958.47,Abierto,David,2022-07-22,49.021791246560966,Medio,Riesgo Bajo
+Transacción con Disputa,Bajo,17932.72,En Proceso,Charlie,2022-08-15,47.754237317793574,Medio,Riesgo Bajo
+Pago Urgente,Bajo,20914.29,Cerrado,Bob,2022-05-02,47.651097927045846,Medio,Riesgo Bajo
+Excepción Regulatoria,Medio,2526.38,Cerrado,David,2022-11-26,47.06805973329764,Medio,Riesgo Medio
+Excepción Regulatoria,Bajo,15811.11,En Proceso,Bob,2022-07-04,47.050184804353925,Medio,Riesgo Bajo
+Excepción Regulatoria,Medio,1019.89,Cerrado,Bob,2022-10-08,46.83011583038058,Medio,Riesgo Medio
+Ajuste Contable,Bajo,13084.75,En Proceso,Charlie,2022-05-16,46.077526251050735,Medio,Riesgo Bajo
+Proveedor VIP,Bajo,4330.08,Abierto,David,2022-02-05,45.504135722613896,Medio,Riesgo Bajo
+Proveedor VIP,Bajo,11937.33,En Proceso,Alice,2022-05-21,45.31814144963915,Medio,Riesgo Bajo
+Proveedor VIP,Bajo,18589.0,Cerrado,Charlie,2022-07-15,45.239671675097156,Medio,Riesgo Bajo
+Proveedor VIP,Bajo,20043.65,Cerrado,David,2022-10-03,45.02289563285787,Medio,Riesgo Bajo
+Ajuste Contable,Bajo,18747.21,Cerrado,Bob,2022-08-10,44.97976860867831,Medio,Riesgo Bajo
+Pago Urgente,Bajo,8839.12,En Proceso,David,2022-03-20,44.299117247938106,Medio,Riesgo Bajo
+Ajuste Contable,Bajo,4137.27,Abierto,Bob,2022-05-07,44.144838923458444,Medio,Riesgo Bajo
+Excepción Regulatoria,Bajo,13520.46,Cerrado,Alice,2022-03-12,43.89459453140952,Medio,Riesgo Bajo
+Proveedor VIP,Bajo,18360.58,Cerrado,David,2022-12-04,43.16220604243506,Medio,Riesgo Bajo
+Caso de Fuerza Mayor,Bajo,4689.67,Abierto,David,2022-08-28,42.93382768668737,Medio,Riesgo Bajo
+Pago Urgente,Bajo,9618.45,En Proceso,David,2022-08-06,42.86959226555658,Medio,Riesgo Bajo
+Aprobación Manual,Bajo,8230.15,En Proceso,Alice,2022-06-18,42.70283293519981,Medio,Riesgo Bajo
+Caso de Fuerza Mayor,Bajo,14645.39,Cerrado,Bob,2022-09-21,41.93551581364044,Medio,Riesgo Bajo
+Aprobación Manual,Bajo,12688.7,Cerrado,Alice,2022-11-15,40.00565623980465,Medio,Riesgo Bajo
+Transacción con Disputa,Bajo,9788.67,Cerrado,David,2022-07-31,39.7207478302624,Medio,Riesgo Bajo
+Caso de Fuerza Mayor,Bajo,6187.29,Cerrado,David,2022-08-12,37.38774075890878,Medio,Riesgo Bajo
+Pago Urgente,Bajo,7649.27,Cerrado,Bob,2022-11-26,36.820188240419874,Medio,Riesgo Bajo
+Caso de Fuerza Mayor,Bajo,2572.91,Cerrado,David,2022-04-28,36.658925784557375,Medio,Riesgo Bajo

@@ -1,0 +1,4 @@
+supplier_type,authorization_limit,approval_flow,discount_early_payment,discount_bulk_order,penalty_late_payment
+small,5000,"Manager, Director",5,10,2.0
+medium,20000,"Manager, Director, VP",3,8,1.5
+large,50000,"Manager, Director, VP, CFO",2,5,1.0

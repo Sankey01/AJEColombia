@@ -1,0 +1,25 @@
+tipo_caso,complejidad,sla_dias,sla_horas,nivel_1_operativo,nivel_2_supervisor,nivel_3_gerencia,aprobadores_requeridos
+Proveedor VIP,Bajo,2.0,48.0,Sí,No,No,1
+Proveedor VIP,Medio,1.0,24.0,Sí,Sí,No,2
+Proveedor VIP,Alto,0.5,12.0,Sí,Sí,Sí,3
+Pago Urgente,Bajo,1.0,24.0,Sí,No,No,1
+Pago Urgente,Medio,0.5,12.0,Sí,Sí,No,2
+Pago Urgente,Alto,0.25,6.0,Sí,Sí,Sí,3
+Ajuste Contable,Bajo,5.0,120.0,Sí,No,No,1
+Ajuste Contable,Medio,3.0,72.0,Sí,Sí,No,2
+Ajuste Contable,Alto,2.0,48.0,Sí,Sí,Sí,3
+Excepción Regulatoria,Bajo,3.0,72.0,Sí,No,No,1
+Excepción Regulatoria,Medio,2.0,48.0,Sí,Sí,No,2
+Excepción Regulatoria,Alto,1.0,24.0,Sí,Sí,Sí,3
+Aprobación Manual,Bajo,3.0,72.0,Sí,No,No,1
+Aprobación Manual,Medio,2.0,48.0,Sí,Sí,No,2
+Aprobación Manual,Alto,1.0,24.0,Sí,Sí,Sí,3
+Caso de Fuerza Mayor,Bajo,2.0,48.0,Sí,No,No,1
+Caso de Fuerza Mayor,Medio,1.0,24.0,Sí,Sí,No,2
+Caso de Fuerza Mayor,Alto,0.5,12.0,Sí,Sí,Sí,3
+Transacción con Disputa,Bajo,7.0,168.0,Sí,No,No,1
+Transacción con Disputa,Medio,5.0,120.0,Sí,Sí,No,2
+Transacción con Disputa,Alto,3.0,72.0,Sí,Sí,Sí,3
+Transacción Internacional Compleja,Bajo,5.0,120.0,Sí,No,No,1
+Transacción Internacional Compleja,Medio,3.0,72.0,Sí,Sí,No,2
+Transacción Internacional Compleja,Alto,2.0,48.0,Sí,Sí,Sí,3

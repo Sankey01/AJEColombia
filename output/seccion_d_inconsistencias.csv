@@ -1,0 +1,52 @@
+transaction_id,tipo_inconsistencia,descripcion,severidad,supplier_type,amount,limite,exceso
+1,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (494d),BAJA,large,2524.43,,
+5,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (579d),BAJA,large,5408.66,,
+6,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (628d),BAJA,medium,788.6,,
+14,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (558d),BAJA,large,3467.74,,
+15,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (534d),BAJA,large,9135.02,,
+16,EXCEDE_LIMITE,Monto $6029.55 excede límite $5000 para tipo 'small',ALTA,small,6029.55,5000.0,1029.5500000000002
+19,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (505d),BAJA,large,6533.79,,
+20,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (507d),BAJA,small,308.24,,
+22,EXCEDE_LIMITE,Monto $5804.50 excede límite $5000 para tipo 'small',ALTA,small,5804.5,5000.0,804.5
+22,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (591d),BAJA,small,5804.5,,
+27,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (506d),BAJA,medium,9577.44,,
+29,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (420d),BAJA,small,778.36,,
+30,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (663d),BAJA,large,911.64,,
+32,EXCEDE_LIMITE,Monto $9961.35 excede límite $5000 para tipo 'small',ALTA,small,9961.35,5000.0,4961.35
+35,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (426d),BAJA,large,2889.39,,
+37,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (626d),BAJA,medium,9800.0,,
+38,EXCEDE_LIMITE,Monto $5501.34 excede límite $5000 para tipo 'small',ALTA,small,5501.34,5000.0,501.34000000000015
+39,EXCEDE_LIMITE,Monto $8999.92 excede límite $5000 para tipo 'small',ALTA,small,8999.92,5000.0,3999.92
+41,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (498d),BAJA,medium,8654.23,,
+42,EXCEDE_LIMITE,Monto $8223.31 excede límite $5000 para tipo 'small',ALTA,small,8223.31,5000.0,3223.3099999999995
+46,EXCEDE_LIMITE,Monto $9493.86 excede límite $5000 para tipo 'small',ALTA,small,9493.86,5000.0,4493.860000000001
+50,EXCEDE_LIMITE,Monto $6366.11 excede límite $5000 para tipo 'small',ALTA,small,6366.11,5000.0,1366.1099999999997
+50,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (442d),BAJA,small,6366.11,,
+51,EXCEDE_LIMITE,Monto $8512.40 excede límite $5000 para tipo 'small',ALTA,small,8512.4,5000.0,3512.3999999999996
+51,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (435d),BAJA,small,8512.4,,
+55,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (566d),BAJA,medium,2845.38,,
+57,EXCEDE_LIMITE,Monto $6970.10 excede límite $5000 para tipo 'small',ALTA,small,6970.1,5000.0,1970.1000000000004
+58,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (440d),BAJA,medium,8345.62,,
+61,EXCEDE_LIMITE,Monto $9078.60 excede límite $5000 para tipo 'small',ALTA,small,9078.6,5000.0,4078.6000000000004
+62,EXCEDE_LIMITE,Monto $8681.83 excede límite $5000 para tipo 'small',ALTA,small,8681.83,5000.0,3681.83
+64,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (584d),BAJA,small,779.32,,
+67,EXCEDE_LIMITE,Monto $5800.39 excede límite $5000 para tipo 'small',ALTA,small,5800.39,5000.0,800.3900000000003
+67,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (512d),BAJA,small,5800.39,,
+69,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (522d),BAJA,large,5374.18,,
+72,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (479d),BAJA,medium,5741.51,,
+73,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (522d),BAJA,medium,2199.99,,
+74,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (446d),BAJA,large,7228.74,,
+79,EXCEDE_LIMITE,Monto $5387.94 excede límite $5000 para tipo 'small',ALTA,small,5387.94,5000.0,387.9399999999996
+79,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (721d),BAJA,small,5387.94,,
+80,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (653d),BAJA,medium,2914.96,,
+82,EXCEDE_LIMITE,Monto $6102.54 excede límite $5000 para tipo 'small',ALTA,small,6102.54,5000.0,1102.54
+83,TERMINOS_INCOHERENTES,Payment terms (90.0d) vs días reales (501d),BAJA,large,6248.17,,
+86,EXCEDE_LIMITE,Monto $6645.71 excede límite $5000 para tipo 'small',ALTA,small,6645.71,5000.0,1645.71
+87,EXCEDE_LIMITE,Monto $7947.02 excede límite $5000 para tipo 'small',ALTA,small,7947.02,5000.0,2947.0200000000004
+88,TERMINOS_INCOHERENTES,Payment terms (60.0d) vs días reales (569d),BAJA,medium,4084.83,,
+89,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (510d),BAJA,small,2578.64,,
+95,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (674d),BAJA,medium,6127.83,,
+96,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (434d),BAJA,large,9923.35,,
+97,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (401d),BAJA,large,9804.42,,
+98,EXCEDE_LIMITE,Monto $8653.87 excede límite $5000 para tipo 'small',ALTA,small,8653.87,5000.0,3653.870000000001
+99,TERMINOS_INCOHERENTES,Payment terms (30.0d) vs días reales (407d),BAJA,medium,4947.44,,

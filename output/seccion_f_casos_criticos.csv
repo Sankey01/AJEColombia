@@ -1,0 +1,41 @@
+tipo_caso,nivel_complejidad,monto_involucrado,estado,responsable,fecha_incidencia
+Excepción Regulatoria,Alto,47455.07,Abierto,Bob,2022-01-06
+Aprobación Manual,Alto,47906.99,Abierto,Alice,2022-02-05
+Aprobación Manual,Alto,46729.71,Abierto,Bob,2022-05-16
+Transacción Internacional Compleja,Alto,47022.62,Abierto,Charlie,2022-10-02
+Aprobación Manual,Alto,49762.32,En Proceso,Charlie,2022-06-09
+Ajuste Contable,Alto,43595.72,Abierto,David,2022-05-23
+Excepción Regulatoria,Alto,45361.49,Abierto,Alice,2022-09-08
+Transacción Internacional Compleja,Alto,42419.89,Abierto,David,2022-05-09
+Ajuste Contable,Alto,49432.29,En Proceso,Bob,2022-07-15
+Aprobación Manual,Alto,40521.58,Abierto,Alice,2022-06-08
+Aprobación Manual,Alto,36863.47,Abierto,Bob,2022-02-10
+Transacción con Disputa,Alto,40898.0,Abierto,David,2022-08-12
+Aprobación Manual,Alto,41368.91,En Proceso,Charlie,2022-02-02
+Pago Urgente,Alto,46049.97,En Proceso,Bob,2022-09-02
+Proveedor VIP,Alto,38347.29,Abierto,Bob,2022-10-02
+Pago Urgente,Alto,44354.63,Cerrado,Charlie,2022-02-28
+Excepción Regulatoria,Alto,44028.22,Cerrado,Alice,2022-02-23
+Pago Urgente,Alto,38374.12,En Proceso,Bob,2022-02-20
+Ajuste Contable,Alto,41697.89,En Proceso,David,2022-09-16
+Transacción Internacional Compleja,Alto,36202.01,Abierto,Bob,2022-10-12
+Excepción Regulatoria,Alto,42078.52,En Proceso,Alice,2022-12-04
+Proveedor VIP,Alto,45390.21,Cerrado,Charlie,2022-09-19
+Pago Urgente,Alto,34980.09,Abierto,Bob,2022-12-03
+Aprobación Manual,Alto,39225.7,Cerrado,Bob,2022-02-22
+Excepción Regulatoria,Alto,38057.17,Cerrado,David,2022-01-21
+Pago Urgente,Alto,32844.34,En Proceso,David,2022-04-12
+Transacción con Disputa,Alto,31639.71,En Proceso,Bob,2022-02-24
+Transacción Internacional Compleja,Alto,23902.12,Abierto,Alice,2022-03-26
+Aprobación Manual,Alto,33401.9,Cerrado,Alice,2022-02-05
+Transacción con Disputa,Alto,32872.41,En Proceso,David,2022-09-25
+Ajuste Contable,Alto,28484.44,Abierto,Alice,2022-12-28
+Proveedor VIP,Alto,30210.22,En Proceso,Bob,2022-08-02
+Transacción con Disputa,Alto,26257.15,En Proceso,Charlie,2022-02-13
+Ajuste Contable,Alto,26856.02,En Proceso,David,2022-03-26
+Pago Urgente,Alto,22725.77,Abierto,Charlie,2022-07-09
+Excepción Regulatoria,Alto,34681.86,Cerrado,Bob,2022-08-21
+Excepción Regulatoria,Alto,24992.38,Abierto,David,2022-10-24
+Proveedor VIP,Medio,49809.95,En Proceso,Charlie,2022-07-15
+Aprobación Manual,Alto,25224.48,Abierto,Bob,2022-12-23
+Excepción Regulatoria,Alto,32288.91,Cerrado,Alice,2022-07-15
