@@ -53,9 +53,9 @@
       "anomaly_percentage": 1.98,
       "suspicious_approvers_count": 3,
       "suspicious_approvers": [
-        "John Doe",
         "Unauthorized User",
-        "Jane Smith"
+        "Jane Smith",
+        "John Doe"
       ]
     },
     "amount": {

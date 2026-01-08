@@ -48,7 +48,7 @@ def main():
         print("\n" + "="*80)
         print("EXPORTANDO RESULTADOS")
         print("="*80)
-        output_dir = r'C:\Users\Kenny\PycharmProjects\AJEColombia\output\anomaly_detection_results'
+        output_dir = r'/output/anomaly_detection_results'
         orchestrator.export_results(
             output_dir=output_dir,
             export_csv=True,

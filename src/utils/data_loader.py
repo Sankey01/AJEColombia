@@ -7,7 +7,7 @@ Módulo simple para cargar archivos CSV y convertirlos a DataFrame.
 import pandas as pd
 
 
-def load_payment_data(filepath: str = r'C:\Users\Kenny\PycharmProjects\AJEColombia\resource\condiciones_pagos (1).csv') -> pd.DataFrame:
+def load_payment_data(filepath: str = r'C:\Users\Kenny\PycharmProjects\AJEColombia\resource\condiciones_pagos.csv') -> pd.DataFrame:
     """
     Carga el archivo CSV de condiciones de pagos.
 
