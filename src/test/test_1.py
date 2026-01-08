@@ -8,10 +8,10 @@ Prueba que los módulos base funcionen correctamente:
 
 import sys
 
-sys.path.insert(0, '/home/claude/AJEColombia/src/terms_payment')
+sys.path.insert(0, '/home/claude/AJEColombia/src/seccion_A')
 
 from src.utils.data_loader import load_payment_data
-from src.terms_payment.analysis.detectors.base_detector import BaseDetector
+from src.seccion_A.analysis.detectors.base_detector import BaseDetector
 import pandas as pd
 
 

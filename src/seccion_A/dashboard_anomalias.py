@@ -20,17 +20,14 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
 
-from terms_payment.analysis.anomaly_detector import AnomalyDetectorOrchestrator
+from seccion_A.analysis.anomaly_detector import AnomalyDetectorOrchestrator
 
 # ============================================================
 # CONFIGURACIÓN E INICIALIZACIÓN
 # ============================================================
 
-# Ruta al archivo de datos
-DATA_PATH = os.path.join(BASE_DIR, '..', 'resource', 'condiciones_pagos (1).csv')
-
 # Cargar datos
-df_original = pd.read_csv(DATA_PATH)
+df_original = pd.read_csv(r"/resource/condiciones_pagos.csv")
 
 # Inicializar el orquestador existente
 orchestrator = AnomalyDetectorOrchestrator()
@@ -61,6 +58,22 @@ DETECTOR_COLORS = {
     'discount_penalty': '#00bcd4',
     'cross_consistency': '#ff9800'
 }
+
+# Traducciones de nombres de detectores a español
+DETECTOR_NAMES_ES = {
+    'duplicate': 'Duplicados',
+    'format': 'Formato',
+    'temporal': 'Temporales',
+    'business_rules': 'Reglas de Negocio',
+    'approver': 'Aprobador',
+    'amount': 'Montos',
+    'discount_penalty': 'Descuento/Penalización',
+    'cross_consistency': 'Consistencia Cruzada'
+}
+
+# Obtener total de duplicados
+duplicate_stats = summary.get('detector_statistics', {}).get('duplicate', {})
+TOTAL_DUPLICADOS = duplicate_stats.get('anomalies_found', 0)
 
 # ============================================================
 # CREAR APLICACIÓN DASH
@@ -99,6 +112,11 @@ def create_kpi_card(title, value, subtitle, icon, color):
     })
 
 
+def get_detector_name_es(detector_key: str) -> str:
+    """Obtiene el nombre del detector en español."""
+    return DETECTOR_NAMES_ES.get(detector_key, detector_key.replace('_', ' ').title())
+
+
 def create_detector_distribution_chart():
     """Gráfico de distribución de anomalías por detector."""
     detector_stats = summary.get('detector_statistics', {})
@@ -106,7 +124,8 @@ def create_detector_distribution_chart():
     data = []
     for detector_name, stats in detector_stats.items():
         data.append({
-            'Detector': detector_name.replace('_', ' ').title(),
+            'Detector': get_detector_name_es(detector_name),
+            'DetectorKey': detector_name,
             'Anomalías': stats.get('anomalies_found', 0),
             'Porcentaje': stats.get('anomaly_percentage', 0)
         })
@@ -122,8 +141,8 @@ def create_detector_distribution_chart():
         x=df_chart['Anomalías'],
         y=df_chart['Detector'],
         orientation='h',
-        marker_color=[DETECTOR_COLORS.get(d.lower().replace(' ', '_'), COLORS['primary']) 
-                      for d in df_chart['Detector']],
+        marker_color=[DETECTOR_COLORS.get(d, COLORS['primary']) 
+                      for d in df_chart['DetectorKey']],
         text=df_chart['Anomalías'],
         textposition='auto'
     ))
@@ -136,7 +155,7 @@ def create_detector_distribution_chart():
         plot_bgcolor='rgba(0,0,0,0)',
         font_color=COLORS['text'],
         title_font_size=16,
-        margin=dict(l=150, r=30, t=60, b=50),
+        margin=dict(l=180, r=30, t=60, b=50),
         showlegend=False
     )
     
@@ -228,42 +247,56 @@ def create_amount_histogram():
 
 
 def create_approver_analysis():
-    """Análisis de aprobadores."""
-    # Obtener estadísticas de aprobadores del orchestrator
-    approver_stats_raw = summary.get('detector_statistics', {}).get('approver', {})
+    """Análisis de aprobadores - Monto total excluyendo duplicados."""
+    # Identificar la columna de duplicados si existe
+    duplicate_col = None
+    for col in df_consolidated.columns:
+        if 'duplicate' in col.lower() and 'has_anomaly' in col.lower():
+            duplicate_col = col
+            break
     
-    # Agrupar por aprobador en los datos consolidados
-    approver_data = df_consolidated.groupby('aprobador').agg({
+    # Filtrar registros NO duplicados para calcular montos
+    if duplicate_col and duplicate_col in df_consolidated.columns:
+        df_no_duplicates = df_consolidated[df_consolidated[duplicate_col] == False]
+    else:
+        df_no_duplicates = df_consolidated
+    
+    # Agrupar por aprobador en datos SIN duplicados
+    approver_data = df_no_duplicates.groupby('aprobador').agg({
         'ID_transaccion': 'count',
         'monto': 'sum',
         'has_any_anomaly': 'sum'
     }).reset_index()
     approver_data.columns = ['Aprobador', 'Transacciones', 'Monto Total', 'Con Anomalías']
-    approver_data = approver_data.sort_values('Con Anomalías', ascending=True)
+    approver_data = approver_data.sort_values('Monto Total', ascending=True)
     
-    # Identificar aprobadores con muchas anomalías
-    avg_anomalies = approver_data['Con Anomalías'].mean()
-    colors = [COLORS['danger'] if a > avg_anomalies else COLORS['primary'] 
-              for a in approver_data['Con Anomalías']]
+    # Crear gráfico de barras horizontal con montos
+    fig = go.Figure()
     
-    fig = go.Figure(go.Bar(
-        x=approver_data['Con Anomalías'],
+    # Barra de monto total
+    fig.add_trace(go.Bar(
+        x=approver_data['Monto Total'],
         y=approver_data['Aprobador'],
         orientation='h',
-        marker_color=colors,
-        text=approver_data['Transacciones'].apply(lambda x: f'{x} trans.'),
-        textposition='auto'
+        name='Monto Total',
+        marker_color=COLORS['primary'],
+        text=approver_data.apply(
+            lambda row: f"${row['Monto Total']:,.0f} ({row['Transacciones']} trans.)", axis=1
+        ),
+        textposition='auto',
+        hovertemplate='<b>%{y}</b><br>Monto: $%{x:,.2f}<br>Transacciones: %{text}<extra></extra>'
     ))
     
     fig.update_layout(
-        title='Anomalías por Aprobador (Rojo = Por encima del promedio)',
-        xaxis_title='Registros con Anomalías',
+        title='Monto Total por Aprobador (Sin Duplicados)',
+        xaxis_title='Monto Total ($)',
         yaxis_title='Aprobador',
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
         font_color=COLORS['text'],
         title_font_size=16,
-        margin=dict(l=120, r=30, t=60, b=50)
+        margin=dict(l=120, r=30, t=60, b=50),
+        showlegend=False
     )
     
     fig.update_xaxes(gridcolor='rgba(255,255,255,0.1)')
@@ -445,7 +478,7 @@ def create_risk_matrix():
         cantidad = stats.get('anomalies_found', 0)
         
         risk_data.append({
-            'Tipo': detector_name.replace('_', ' ').title(),
+            'Tipo': get_detector_name_es(detector_name),
             'Cantidad': cantidad,
             'Impacto': config['impacto'],
             'Probabilidad': config['probabilidad'],

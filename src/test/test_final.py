@@ -6,7 +6,7 @@ Este es el script final que valida todo el sistema de detección de anomalías.
 """
 
 from src.utils.data_loader import load_payment_data
-from src.terms_payment.analysis.anomaly_detector import AnomalyDetectorOrchestrator
+from src.seccion_A.analysis.anomaly_detector import AnomalyDetectorOrchestrator
 
 
 def main():

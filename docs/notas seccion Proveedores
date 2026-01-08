@@ -1,0 +1,75 @@
+1. Analizar correlación entre tipo de empresa y performance
+# En analisis_correlacion_empresa_performance() - líneas 135-169
+grupo = df.groupby('tipo_empresa').agg({
+    'on_time_delivery': ['mean', 'std'],
+    'quality_issues': ['mean', 'sum'],
+    'customer_complaints': ['mean', 'sum'],
+    'score_performance': 'mean'
+})
+
+Método: Agrupé proveedores por tipo_empresa (Pequeña, Mediana, Grande)
+y calculé estadísticas descriptivas para cada métrica de performance.
+El ranking final muestra qué tipo de empresa tiene mejor desempeño promedio.
+
+2. Identificar patrones geográficos de riesgo
+
+# En analisis_patrones_geograficos() - líneas 172-211
+grupo = df.groupby('país').agg({
+    'score_riesgo': ['mean', 'std'],
+    'score_performance': 'mean',
+    'categoría_riesgo': lambda x: (x == 'Alto').sum()  # Contar alto riesgo
+})
+grupo['pct_alto_riesgo'] = proveedores_alto_riesgo / total * 100
+Método:
+Agrupé por país y calculé el riesgo promedio, performance medio, y porcentaje de proveedores de alto riesgo por país.
+ Esto permite identificar qué países tienen concentraciones de proveedores problemáticos.
+
+
+3. Evaluar efectividad de certificaciones en performance
+
+# En evaluar_certificaciones() - líneas 214-262
+# Análisis por CANTIDAD de certificaciones:
+grupo_cert = df.groupby('num_certificaciones').agg({
+    'score_performance': 'mean',
+    'score_riesgo': 'mean'
+})
+# Análisis por TIPO de certificación (ISO_9001, ISO_14001, etc.):
+for cert in row['certificaciones_list']:
+    todas_certs.append({
+        'certificacion': cert,
+        'performance': row['score_performance']
+    })
+df_certs.groupby('certificacion')['performance'].mean()
+Método: Dos análisis complementarios:
+
+Correlación entre número de certificaciones y performance promedio
+Impacto de cada tipo específico de certificación en el performance
+
+4. Proponer matriz de aprobación por segmento
+
+# En generar_matriz_aprobacion() - líneas 265-321
+criterios = {
+    'Premium': {
+        'limite_credito_max': 50000,
+        'condiciones_pago': 'Net 90',
+        'descuento_maximo': 15,
+        'requiere_aprobacion': 'Automática',
+        'frecuencia_revision': 'Anual'
+    },
+    'Alto_Riesgo': {
+        'limite_credito_max': 10000,
+        'condiciones_pago': 'Anticipado',
+        'requiere_aprobacion': 'Director',
+        'frecuencia_revision': 'Mensual'
+    }
+    # ... Estándar y Supervisión
+}
+Método: Definí políticas diferenciadas basadas en el segmento de riesgo calculado. Cada segmento tiene:
+
+* Límites de crédito escalonados
+* Condiciones de pago apropiadas al riesgo
+* Niveles de aprobación (más estrictos para alto riesgo)
+* Frecuencia de revisión (mensual para alto riesgo, anual para premium)
+* La matriz final combina estas políticas con estadísticas reales del segmento
+(cantidad de proveedores, performance promedio, crédito actual).
+

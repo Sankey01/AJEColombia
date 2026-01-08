@@ -11,7 +11,7 @@ Prueba todos los detectores críticos:
 
 import sys
 
-sys.path.insert(0, '/home/claude/AJEColombia/src/terms_payment')
+sys.path.insert(0, '/home/claude/AJEColombia/src/seccion_A')
 
 from utils.data_loader import load_payment_data
 from analysis.detectors.duplicate_detector import DuplicateDetector
