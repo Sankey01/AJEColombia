@@ -27,7 +27,7 @@ from seccion_A.analysis.anomaly_detector import AnomalyDetectorOrchestrator
 # ============================================================
 
 # Cargar datos
-df_original = pd.read_csv(r"/resource/condiciones_pagos.csv")
+df_original = pd.read_csv(r"C:\Users\Kenny\PycharmProjects\AJEColombia\resource\condiciones_pagos.csv")
 
 # Inicializar el orquestador existente
 orchestrator = AnomalyDetectorOrchestrator()
