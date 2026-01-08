@@ -1,0 +1,102 @@
+{
+  "logistic_regression": {
+    "best_params": {
+      "C": 1.0,
+      "penalty": "l2",
+      "solver": "liblinear",
+      "max_iter": 1000,
+      "random_state": 42,
+      "class_weight": "balanced"
+    },
+    "cv_score": null,
+    "metrics": {
+      "train": {
+        "accuracy": 0.5277970813064629,
+        "precision": 0.5251274581209031,
+        "recall": 0.5049019607843137,
+        "f1": 0.5148161370938951,
+        "roc_auc": 0.5344619916932289,
+        "average_precision": 0.5303257550771624,
+        "cohen_kappa": 0.05526293541771832
+      },
+      "test": {
+        "accuracy": 0.525,
+        "precision": 0.5180327868852459,
+        "recall": 0.4475920679886686,
+        "f1": 0.48024316109422494,
+        "roc_auc": 0.5195019721962779,
+        "average_precision": 0.5140390146121144,
+        "cohen_kappa": 0.0471694462717176
+      }
+    }
+  },
+  "random_forest": {
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "random_state": 42,
+      "n_jobs": -1,
+      "class_weight": "balanced"
+    },
+    "cv_score": null,
+    "metrics": {
+      "train": {
+        "accuracy": 0.9927032661570535,
+        "precision": 0.9909281228192603,
+        "recall": 0.9943977591036415,
+        "f1": 0.9926599091226844,
+        "roc_auc": 0.9997894330145852,
+        "average_precision": 0.9997867248983849,
+        "cohen_kappa": 0.985406067162323
+      },
+      "test": {
+        "accuracy": 0.5125,
+        "precision": 0.5033112582781457,
+        "recall": 0.43059490084985835,
+        "f1": 0.46412213740458014,
+        "roc_auc": 0.4983520003705105,
+        "average_precision": 0.49560958247715775,
+        "cohen_kappa": 0.021936003219963696
+      }
+    }
+  },
+  "xgboost": {
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "min_child_weight": 3,
+      "gamma": 0.1,
+      "random_state": 42,
+      "n_jobs": -1,
+      "scale_pos_weight": 2,
+      "eval_metric": "logloss"
+    },
+    "cv_score": null,
+    "metrics": {
+      "train": {
+        "accuracy": 0.7953439888811675,
+        "precision": 0.7098549274637319,
+        "recall": 0.9936974789915967,
+        "f1": 0.8281295593813831,
+        "roc_auc": 0.9607546121897035,
+        "average_precision": 0.9576852074325568,
+        "cohen_kappa": 0.5919019914959018
+      },
+      "test": {
+        "accuracy": 0.4791666666666667,
+        "precision": 0.48109965635738833,
+        "recall": 0.7932011331444759,
+        "f1": 0.5989304812834224,
+        "roc_auc": 0.4857855207601639,
+        "average_precision": 0.47724594398084397,
+        "cohen_kappa": -0.029324305777940207
+      }
+    }
+  }
+}

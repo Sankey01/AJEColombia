@@ -1,0 +1,1915 @@
+{
+    "payment_policies": {
+        "policies": {
+            "supplier_type": {
+                "small": {
+                    "authorization_limit": 5000,
+                    "approval_flow": [
+                        "Manager",
+                        "Director"
+                    ],
+                    "discounts": {
+                        "early_payment": 5,
+                        "bulk_order": 10
+                    },
+                    "penalties": {
+                        "late_payment": 2
+                    }
+                },
+                "medium": {
+                    "authorization_limit": 20000,
+                    "approval_flow": [
+                        "Manager",
+                        "Director",
+                        "VP"
+                    ],
+                    "discounts": {
+                        "early_payment": 3,
+                        "bulk_order": 8
+                    },
+                    "penalties": {
+                        "late_payment": 1.5
+                    }
+                },
+                "large": {
+                    "authorization_limit": 50000,
+                    "approval_flow": [
+                        "Manager",
+                        "Director",
+                        "VP",
+                        "CFO"
+                    ],
+                    "discounts": {
+                        "early_payment": 2,
+                        "bulk_order": 5
+                    },
+                    "penalties": {
+                        "late_payment": 1
+                    }
+                }
+            }
+        }
+    },
+    "transactions": [
+        {
+            "transaction_id": 1,
+            "supplier_id": 1014,
+            "supplier_type": "large",
+            "invoice_date": "2022-01-13",
+            "due_date": "2023-05-22",
+            "amount": 2524.43,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    95,
+                    70,
+                    12,
+                    76,
+                    55
+                ]
+            }
+        },
+        {
+            "transaction_id": 2,
+            "supplier_id": 1003,
+            "supplier_type": "small",
+            "invoice_date": "2022-02-17",
+            "due_date": "2023-04-23",
+            "amount": 2403.34,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    92
+                ]
+            }
+        },
+        {
+            "transaction_id": 3,
+            "supplier_id": 1089,
+            "supplier_type": "large",
+            "invoice_date": "2022-10-07",
+            "due_date": "2023-08-04",
+            "amount": 2282.36,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    90
+                ]
+            }
+        },
+        {
+            "transaction_id": 4,
+            "supplier_id": 1043,
+            "supplier_type": "medium",
+            "invoice_date": "2022-05-23",
+            "due_date": "2023-03-22",
+            "amount": 2231.61,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    13,
+                    46,
+                    45
+                ]
+            }
+        },
+        {
+            "transaction_id": 5,
+            "supplier_id": 1033,
+            "supplier_type": "large",
+            "invoice_date": "2022-01-23",
+            "due_date": "2023-08-25",
+            "amount": 5408.66,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    81,
+                    80
+                ]
+            }
+        },
+        {
+            "transaction_id": 6,
+            "supplier_id": 1073,
+            "supplier_type": "medium",
+            "invoice_date": "2022-04-09",
+            "due_date": "2023-12-28",
+            "amount": 788.6,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 7,
+            "supplier_id": 1012,
+            "supplier_type": "small",
+            "invoice_date": "2022-07-14",
+            "due_date": "2023-05-24",
+            "amount": 4588.76,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    27,
+                    86
+                ]
+            }
+        },
+        {
+            "transaction_id": 8,
+            "supplier_id": 1089,
+            "supplier_type": "medium",
+            "invoice_date": "2022-12-16",
+            "due_date": "2023-11-29",
+            "amount": 806.88,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    32,
+                    21,
+                    60,
+                    49,
+                    35
+                ]
+            }
+        },
+        {
+            "transaction_id": 9,
+            "supplier_id": 1088,
+            "supplier_type": "large",
+            "invoice_date": "2022-10-13",
+            "due_date": "2023-04-24",
+            "amount": 6877.68,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    52,
+                    35
+                ]
+            }
+        },
+        {
+            "transaction_id": 10,
+            "supplier_id": 1027,
+            "supplier_type": "small",
+            "invoice_date": "2022-10-18",
+            "due_date": "2023-06-12",
+            "amount": 2205.0,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    19,
+                    34,
+                    18
+                ]
+            }
+        },
+        {
+            "transaction_id": 11,
+            "supplier_id": 1095,
+            "supplier_type": "small",
+            "invoice_date": "2022-10-15",
+            "due_date": "2023-10-04",
+            "amount": 2701.14,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    47,
+                    29,
+                    18
+                ]
+            }
+        },
+        {
+            "transaction_id": 12,
+            "supplier_id": 1063,
+            "supplier_type": "large",
+            "invoice_date": "2022-02-16",
+            "due_date": "2023-01-26",
+            "amount": 8624.92,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    55,
+                    77,
+                    9,
+                    50,
+                    49
+                ]
+            }
+        },
+        {
+            "transaction_id": 13,
+            "supplier_id": 1059,
+            "supplier_type": "large",
+            "invoice_date": "2022-09-28",
+            "due_date": "2023-05-10",
+            "amount": 9713.68,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 14,
+            "supplier_id": 1068,
+            "supplier_type": "large",
+            "invoice_date": "2022-05-17",
+            "due_date": "2023-11-26",
+            "amount": 3467.74,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    1,
+                    93,
+                    34
+                ]
+            }
+        },
+        {
+            "transaction_id": 15,
+            "supplier_id": 1097,
+            "supplier_type": "large",
+            "invoice_date": "2022-04-02",
+            "due_date": "2023-09-18",
+            "amount": 9135.02,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    78,
+                    26,
+                    20,
+                    48
+                ]
+            }
+        },
+        {
+            "transaction_id": 16,
+            "supplier_id": 1069,
+            "supplier_type": "small",
+            "invoice_date": "2022-09-29",
+            "due_date": "2023-01-02",
+            "amount": 6029.55,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    40,
+                    31
+                ]
+            }
+        },
+        {
+            "transaction_id": 17,
+            "supplier_id": 1030,
+            "supplier_type": "small",
+            "invoice_date": "2022-10-18",
+            "due_date": "2023-02-11",
+            "amount": 947.97,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    17
+                ]
+            }
+        },
+        {
+            "transaction_id": 18,
+            "supplier_id": 1060,
+            "supplier_type": "large",
+            "invoice_date": "2022-10-09",
+            "due_date": "2023-03-27",
+            "amount": 2724.06,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    97,
+                    94,
+                    89,
+                    26
+                ]
+            }
+        },
+        {
+            "transaction_id": 19,
+            "supplier_id": 1039,
+            "supplier_type": "large",
+            "invoice_date": "2022-07-24",
+            "due_date": "2023-12-11",
+            "amount": 6533.79,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 20,
+            "supplier_id": 1028,
+            "supplier_type": "small",
+            "invoice_date": "2022-02-02",
+            "due_date": "2023-06-24",
+            "amount": 308.24,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    1
+                ]
+            }
+        },
+        {
+            "transaction_id": 21,
+            "supplier_id": 1090,
+            "supplier_type": "small",
+            "invoice_date": "2022-11-20",
+            "due_date": "2023-02-01",
+            "amount": 2366.52,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    31,
+                    36,
+                    86,
+                    63
+                ]
+            }
+        },
+        {
+            "transaction_id": 22,
+            "supplier_id": 1069,
+            "supplier_type": "small",
+            "invoice_date": "2022-03-09",
+            "due_date": "2023-10-21",
+            "amount": 5804.5,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    13
+                ]
+            }
+        },
+        {
+            "transaction_id": 23,
+            "supplier_id": 1084,
+            "supplier_type": "small",
+            "invoice_date": "2022-08-09",
+            "due_date": "2023-07-02",
+            "amount": 4293.43,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    84,
+                    83,
+                    13,
+                    8,
+                    52
+                ]
+            }
+        },
+        {
+            "transaction_id": 24,
+            "supplier_id": 1043,
+            "supplier_type": "large",
+            "invoice_date": "2022-02-25",
+            "due_date": "2023-05-09",
+            "amount": 1996.74,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    24,
+                    36,
+                    60
+                ]
+            }
+        },
+        {
+            "transaction_id": 25,
+            "supplier_id": 1009,
+            "supplier_type": "small",
+            "invoice_date": "2022-08-15",
+            "due_date": "2023-10-10",
+            "amount": 1069.3,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 26,
+            "supplier_id": 1021,
+            "supplier_type": "small",
+            "invoice_date": "2022-07-28",
+            "due_date": "2023-09-07",
+            "amount": 4865.45,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    1,
+                    50,
+                    34
+                ]
+            }
+        },
+        {
+            "transaction_id": 27,
+            "supplier_id": 1036,
+            "supplier_type": "medium",
+            "invoice_date": "2022-08-05",
+            "due_date": "2023-12-24",
+            "amount": 9577.44,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    20,
+                    25,
+                    38
+                ]
+            }
+        },
+        {
+            "transaction_id": 28,
+            "supplier_id": 1007,
+            "supplier_type": "small",
+            "invoice_date": "2022-10-24",
+            "due_date": "2023-10-06",
+            "amount": 703.48,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    62,
+                    65,
+                    68,
+                    21
+                ]
+            }
+        },
+        {
+            "transaction_id": 29,
+            "supplier_id": 1065,
+            "supplier_type": "small",
+            "invoice_date": "2022-02-11",
+            "due_date": "2023-04-07",
+            "amount": 778.36,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    16,
+                    73,
+                    32
+                ]
+            }
+        },
+        {
+            "transaction_id": 30,
+            "supplier_id": 1076,
+            "supplier_type": "large",
+            "invoice_date": "2022-01-21",
+            "due_date": "2023-11-15",
+            "amount": 911.64,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    41,
+                    34,
+                    27,
+                    86
+                ]
+            }
+        },
+        {
+            "transaction_id": 31,
+            "supplier_id": 1040,
+            "supplier_type": "large",
+            "invoice_date": "2022-05-03",
+            "due_date": "2023-05-17",
+            "amount": 4018.28,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    41,
+                    97,
+                    10
+                ]
+            }
+        },
+        {
+            "transaction_id": 32,
+            "supplier_id": 1058,
+            "supplier_type": "small",
+            "invoice_date": "2022-11-15",
+            "due_date": "2023-10-17",
+            "amount": 9961.35,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    34,
+                    17,
+                    45,
+                    9
+                ]
+            }
+        },
+        {
+            "transaction_id": 33,
+            "supplier_id": 1047,
+            "supplier_type": "small",
+            "invoice_date": "2022-05-26",
+            "due_date": "2023-03-23",
+            "amount": 4438.03,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    84,
+                    68,
+                    2,
+                    86
+                ]
+            }
+        },
+        {
+            "transaction_id": 34,
+            "supplier_id": 1038,
+            "supplier_type": "large",
+            "invoice_date": "2022-12-06",
+            "due_date": "2023-02-24",
+            "amount": 9395.41,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 35,
+            "supplier_id": 1070,
+            "supplier_type": "large",
+            "invoice_date": "2022-03-21",
+            "due_date": "2023-05-21",
+            "amount": 2889.39,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    88
+                ]
+            }
+        },
+        {
+            "transaction_id": 36,
+            "supplier_id": 1033,
+            "supplier_type": "large",
+            "invoice_date": "2022-09-16",
+            "due_date": "2023-09-09",
+            "amount": 2586.1,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    36,
+                    6,
+                    1
+                ]
+            }
+        },
+        {
+            "transaction_id": 37,
+            "supplier_id": 1098,
+            "supplier_type": "medium",
+            "invoice_date": "2022-03-08",
+            "due_date": "2023-11-24",
+            "amount": 9800.0,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    91,
+                    55,
+                    72,
+                    2
+                ]
+            }
+        },
+        {
+            "transaction_id": 38,
+            "supplier_id": 1009,
+            "supplier_type": "small",
+            "invoice_date": "2022-12-20",
+            "due_date": "2023-03-19",
+            "amount": 5501.34,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    56
+                ]
+            }
+        },
+        {
+            "transaction_id": 39,
+            "supplier_id": 1005,
+            "supplier_type": "small",
+            "invoice_date": "2022-06-07",
+            "due_date": "2023-07-07",
+            "amount": 8999.92,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    32,
+                    86,
+                    14,
+                    46,
+                    100
+                ]
+            }
+        },
+        {
+            "transaction_id": 40,
+            "supplier_id": 1052,
+            "supplier_type": "large",
+            "invoice_date": "2022-11-14",
+            "due_date": "2023-03-22",
+            "amount": 9265.06,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    4,
+                    23,
+                    95
+                ]
+            }
+        },
+        {
+            "transaction_id": 41,
+            "supplier_id": 1100,
+            "supplier_type": "medium",
+            "invoice_date": "2022-07-30",
+            "due_date": "2023-12-10",
+            "amount": 8654.23,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    14,
+                    49,
+                    5,
+                    61,
+                    29
+                ]
+            }
+        },
+        {
+            "transaction_id": 42,
+            "supplier_id": 1058,
+            "supplier_type": "small",
+            "invoice_date": "2022-06-29",
+            "due_date": "2023-06-07",
+            "amount": 8223.31,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    25,
+                    52,
+                    43,
+                    36,
+                    9
+                ]
+            }
+        },
+        {
+            "transaction_id": 43,
+            "supplier_id": 1044,
+            "supplier_type": "medium",
+            "invoice_date": "2022-11-25",
+            "due_date": "2023-09-19",
+            "amount": 4056.82,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 44,
+            "supplier_id": 1022,
+            "supplier_type": "medium",
+            "invoice_date": "2022-10-25",
+            "due_date": "2023-05-17",
+            "amount": 478.75,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    41,
+                    56,
+                    78,
+                    66,
+                    15
+                ]
+            }
+        },
+        {
+            "transaction_id": 45,
+            "supplier_id": 1073,
+            "supplier_type": "medium",
+            "invoice_date": "2022-04-08",
+            "due_date": "2023-05-12",
+            "amount": 539.43,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    88,
+                    93,
+                    95,
+                    86
+                ]
+            }
+        },
+        {
+            "transaction_id": 46,
+            "supplier_id": 1046,
+            "supplier_type": "small",
+            "invoice_date": "2022-08-09",
+            "due_date": "2023-02-06",
+            "amount": 9493.86,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    16,
+                    93,
+                    39,
+                    65,
+                    40
+                ]
+            }
+        },
+        {
+            "transaction_id": 47,
+            "supplier_id": 1052,
+            "supplier_type": "large",
+            "invoice_date": "2022-06-17",
+            "due_date": "2023-07-27",
+            "amount": 7002.36,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    86,
+                    49,
+                    87
+                ]
+            }
+        },
+        {
+            "transaction_id": 48,
+            "supplier_id": 1022,
+            "supplier_type": "large",
+            "invoice_date": "2022-11-12",
+            "due_date": "2023-10-20",
+            "amount": 3079.4,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    27,
+                    56
+                ]
+            }
+        },
+        {
+            "transaction_id": 49,
+            "supplier_id": 1077,
+            "supplier_type": "large",
+            "invoice_date": "2022-12-02",
+            "due_date": "2023-06-15",
+            "amount": 4703.38,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    61,
+                    95,
+                    22,
+                    85
+                ]
+            }
+        },
+        {
+            "transaction_id": 50,
+            "supplier_id": 1036,
+            "supplier_type": "small",
+            "invoice_date": "2022-09-21",
+            "due_date": "2023-12-07",
+            "amount": 6366.11,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    40,
+                    29,
+                    26,
+                    19,
+                    4
+                ]
+            }
+        },
+        {
+            "transaction_id": 51,
+            "supplier_id": 1031,
+            "supplier_type": "small",
+            "invoice_date": "2022-09-01",
+            "due_date": "2023-11-10",
+            "amount": 8512.4,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    74,
+                    25,
+                    92,
+                    90,
+                    50
+                ]
+            }
+        },
+        {
+            "transaction_id": 52,
+            "supplier_id": 1051,
+            "supplier_type": "medium",
+            "invoice_date": "2022-05-05",
+            "due_date": "2023-03-18",
+            "amount": 6594.97,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    23
+                ]
+            }
+        },
+        {
+            "transaction_id": 53,
+            "supplier_id": 1066,
+            "supplier_type": "large",
+            "invoice_date": "2022-08-26",
+            "due_date": "2023-01-27",
+            "amount": 5618.32,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    86,
+                    68,
+                    72
+                ]
+            }
+        },
+        {
+            "transaction_id": 54,
+            "supplier_id": 1040,
+            "supplier_type": "large",
+            "invoice_date": "2022-08-15",
+            "due_date": "2023-11-11",
+            "amount": 8168.56,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    21,
+                    96,
+                    61
+                ]
+            }
+        },
+        {
+            "transaction_id": 55,
+            "supplier_id": 1033,
+            "supplier_type": "medium",
+            "invoice_date": "2022-05-07",
+            "due_date": "2023-11-24",
+            "amount": 2845.38,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    36
+                ]
+            }
+        },
+        {
+            "transaction_id": 56,
+            "supplier_id": 1009,
+            "supplier_type": "medium",
+            "invoice_date": "2023-01-01",
+            "due_date": "2023-05-28",
+            "amount": 2421.49,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 57,
+            "supplier_id": 1019,
+            "supplier_type": "small",
+            "invoice_date": "2022-04-29",
+            "due_date": "2023-07-17",
+            "amount": 6970.1,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    53,
+                    43,
+                    70
+                ]
+            }
+        },
+        {
+            "transaction_id": 58,
+            "supplier_id": 1053,
+            "supplier_type": "medium",
+            "invoice_date": "2022-02-01",
+            "due_date": "2023-04-17",
+            "amount": 8345.62,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 59,
+            "supplier_id": 1048,
+            "supplier_type": "large",
+            "invoice_date": "2022-09-02",
+            "due_date": "2023-01-05",
+            "amount": 9433.14,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    96,
+                    95,
+                    70,
+                    78
+                ]
+            }
+        },
+        {
+            "transaction_id": 60,
+            "supplier_id": 1062,
+            "supplier_type": "small",
+            "invoice_date": "2022-04-23",
+            "due_date": "2023-05-21",
+            "amount": 4414.78,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    87,
+                    52,
+                    93,
+                    22,
+                    60
+                ]
+            }
+        },
+        {
+            "transaction_id": 61,
+            "supplier_id": 1079,
+            "supplier_type": "small",
+            "invoice_date": "2022-10-01",
+            "due_date": "2023-01-15",
+            "amount": 9078.6,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 62,
+            "supplier_id": 1082,
+            "supplier_type": "small",
+            "invoice_date": "2022-08-08",
+            "due_date": "2023-03-12",
+            "amount": 8681.83,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    42,
+                    28,
+                    59
+                ]
+            }
+        },
+        {
+            "transaction_id": 63,
+            "supplier_id": 1043,
+            "supplier_type": "medium",
+            "invoice_date": "2022-07-14",
+            "due_date": "2023-05-24",
+            "amount": 7544.9,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    3,
+                    96,
+                    70
+                ]
+            }
+        },
+        {
+            "transaction_id": 64,
+            "supplier_id": 1044,
+            "supplier_type": "small",
+            "invoice_date": "2022-04-25",
+            "due_date": "2023-11-30",
+            "amount": 779.32,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    26
+                ]
+            }
+        },
+        {
+            "transaction_id": 65,
+            "supplier_id": 1079,
+            "supplier_type": "small",
+            "invoice_date": "2022-03-20",
+            "due_date": "2023-05-04",
+            "amount": 1349.59,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    60
+                ]
+            }
+        },
+        {
+            "transaction_id": 66,
+            "supplier_id": 1032,
+            "supplier_type": "large",
+            "invoice_date": "2022-07-08",
+            "due_date": "2023-03-28",
+            "amount": 6098.34,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    40
+                ]
+            }
+        },
+        {
+            "transaction_id": 67,
+            "supplier_id": 1074,
+            "supplier_type": "small",
+            "invoice_date": "2022-01-14",
+            "due_date": "2023-06-10",
+            "amount": 5800.39,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    10
+                ]
+            }
+        },
+        {
+            "transaction_id": 68,
+            "supplier_id": 1088,
+            "supplier_type": "large",
+            "invoice_date": "2022-11-18",
+            "due_date": "2023-05-06",
+            "amount": 1108.82,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 69,
+            "supplier_id": 1100,
+            "supplier_type": "large",
+            "invoice_date": "2022-01-22",
+            "due_date": "2023-06-28",
+            "amount": 5374.18,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    83,
+                    44,
+                    2,
+                    54
+                ]
+            }
+        },
+        {
+            "transaction_id": 70,
+            "supplier_id": 1013,
+            "supplier_type": "medium",
+            "invoice_date": "2022-08-10",
+            "due_date": "2023-07-06",
+            "amount": 6392.29,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    23,
+                    94,
+                    67
+                ]
+            }
+        },
+        {
+            "transaction_id": 71,
+            "supplier_id": 1034,
+            "supplier_type": "large",
+            "invoice_date": "2022-11-12",
+            "due_date": "2023-10-04",
+            "amount": 7768.95,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    35,
+                    42,
+                    32,
+                    12
+                ]
+            }
+        },
+        {
+            "transaction_id": 72,
+            "supplier_id": 1057,
+            "supplier_type": "medium",
+            "invoice_date": "2022-05-05",
+            "due_date": "2023-08-27",
+            "amount": 5741.51,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 73,
+            "supplier_id": 1041,
+            "supplier_type": "medium",
+            "invoice_date": "2022-04-04",
+            "due_date": "2023-09-08",
+            "amount": 2199.99,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    90,
+                    36,
+                    72,
+                    2
+                ]
+            }
+        },
+        {
+            "transaction_id": 74,
+            "supplier_id": 1024,
+            "supplier_type": "large",
+            "invoice_date": "2022-02-13",
+            "due_date": "2023-05-05",
+            "amount": 7228.74,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    61,
+                    83,
+                    92,
+                    63,
+                    58
+                ]
+            }
+        },
+        {
+            "transaction_id": 75,
+            "supplier_id": 1011,
+            "supplier_type": "small",
+            "invoice_date": "2022-05-31",
+            "due_date": "2023-04-25",
+            "amount": 4103.57,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    48,
+                    61,
+                    71,
+                    68
+                ]
+            }
+        },
+        {
+            "transaction_id": 76,
+            "supplier_id": 1054,
+            "supplier_type": "medium",
+            "invoice_date": "2022-10-09",
+            "due_date": "2023-06-20",
+            "amount": 3582.92,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    30,
+                    16
+                ]
+            }
+        },
+        {
+            "transaction_id": 77,
+            "supplier_id": 1024,
+            "supplier_type": "large",
+            "invoice_date": "2022-06-11",
+            "due_date": "2023-03-04",
+            "amount": 7454.52,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    95
+                ]
+            }
+        },
+        {
+            "transaction_id": 78,
+            "supplier_id": 1035,
+            "supplier_type": "medium",
+            "invoice_date": "2022-10-29",
+            "due_date": "2023-09-27",
+            "amount": 6008.23,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    47
+                ]
+            }
+        },
+        {
+            "transaction_id": 79,
+            "supplier_id": 1038,
+            "supplier_type": "small",
+            "invoice_date": "2022-01-08",
+            "due_date": "2023-12-30",
+            "amount": 5387.94,
+            "payment_terms": "60 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    38,
+                    90,
+                    17,
+                    82
+                ]
+            }
+        },
+        {
+            "transaction_id": 80,
+            "supplier_id": 1013,
+            "supplier_type": "medium",
+            "invoice_date": "2022-01-07",
+            "due_date": "2023-10-22",
+            "amount": 2914.96,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    7
+                ]
+            }
+        },
+        {
+            "transaction_id": 81,
+            "supplier_id": 1061,
+            "supplier_type": "medium",
+            "invoice_date": "2022-02-28",
+            "due_date": "2023-02-04",
+            "amount": 4067.0,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    7,
+                    20,
+                    73,
+                    39,
+                    11
+                ]
+            }
+        },
+        {
+            "transaction_id": 82,
+            "supplier_id": 1015,
+            "supplier_type": "small",
+            "invoice_date": "2022-10-13",
+            "due_date": "2023-08-03",
+            "amount": 6102.54,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    58,
+                    57,
+                    39
+                ]
+            }
+        },
+        {
+            "transaction_id": 83,
+            "supplier_id": 1054,
+            "supplier_type": "large",
+            "invoice_date": "2022-06-06",
+            "due_date": "2023-10-20",
+            "amount": 6248.17,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    81
+                ]
+            }
+        },
+        {
+            "transaction_id": 84,
+            "supplier_id": 1033,
+            "supplier_type": "small",
+            "invoice_date": "2022-12-05",
+            "due_date": "2023-02-12",
+            "amount": 1654.87,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    1
+                ]
+            }
+        },
+        {
+            "transaction_id": 85,
+            "supplier_id": 1057,
+            "supplier_type": "medium",
+            "invoice_date": "2022-12-19",
+            "due_date": "2023-11-02",
+            "amount": 4752.13,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    37,
+                    90,
+                    59,
+                    10,
+                    88
+                ]
+            }
+        },
+        {
+            "transaction_id": 86,
+            "supplier_id": 1033,
+            "supplier_type": "small",
+            "invoice_date": "2022-11-17",
+            "due_date": "2023-10-30",
+            "amount": 6645.71,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    29,
+                    83,
+                    20,
+                    35
+                ]
+            }
+        },
+        {
+            "transaction_id": 87,
+            "supplier_id": 1009,
+            "supplier_type": "small",
+            "invoice_date": "2022-01-31",
+            "due_date": "2023-03-27",
+            "amount": 7947.02,
+            "payment_terms": "90 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    57,
+                    16
+                ]
+            }
+        },
+        {
+            "transaction_id": 88,
+            "supplier_id": 1088,
+            "supplier_type": "medium",
+            "invoice_date": "2022-06-05",
+            "due_date": "2023-12-26",
+            "amount": 4084.83,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    57,
+                    11,
+                    77
+                ]
+            }
+        },
+        {
+            "transaction_id": 89,
+            "supplier_id": 1055,
+            "supplier_type": "small",
+            "invoice_date": "2022-06-15",
+            "due_date": "2023-11-07",
+            "amount": 2578.64,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    76,
+                    3,
+                    98,
+                    87
+                ]
+            }
+        },
+        {
+            "transaction_id": 90,
+            "supplier_id": 1073,
+            "supplier_type": "medium",
+            "invoice_date": "2022-01-21",
+            "due_date": "2023-04-01",
+            "amount": 4757.96,
+            "payment_terms": "90 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    75
+                ]
+            }
+        },
+        {
+            "transaction_id": 91,
+            "supplier_id": 1081,
+            "supplier_type": "medium",
+            "invoice_date": "2022-09-09",
+            "due_date": "2023-02-17",
+            "amount": 4753.1,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    14,
+                    21,
+                    43,
+                    53,
+                    89
+                ]
+            }
+        },
+        {
+            "transaction_id": 92,
+            "supplier_id": 1036,
+            "supplier_type": "medium",
+            "invoice_date": "2022-12-06",
+            "due_date": "2023-07-26",
+            "amount": 8154.3,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": []
+            }
+        },
+        {
+            "transaction_id": 93,
+            "supplier_id": 1032,
+            "supplier_type": "medium",
+            "invoice_date": "2022-06-15",
+            "due_date": "2023-03-02",
+            "amount": 9704.83,
+            "payment_terms": "60 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    70,
+                    60,
+                    53,
+                    7,
+                    25
+                ]
+            }
+        },
+        {
+            "transaction_id": 94,
+            "supplier_id": 1046,
+            "supplier_type": "large",
+            "invoice_date": "2022-11-15",
+            "due_date": "2023-09-14",
+            "amount": 6291.55,
+            "payment_terms": "30 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    17,
+                    37,
+                    57,
+                    90
+                ]
+            }
+        },
+        {
+            "transaction_id": 95,
+            "supplier_id": 1015,
+            "supplier_type": "medium",
+            "invoice_date": "2022-01-15",
+            "due_date": "2023-11-20",
+            "amount": 6127.83,
+            "payment_terms": "30 days",
+            "status": "Overdue",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    71,
+                    2
+                ]
+            }
+        },
+        {
+            "transaction_id": 96,
+            "supplier_id": 1052,
+            "supplier_type": "large",
+            "invoice_date": "2022-02-17",
+            "due_date": "2023-04-27",
+            "amount": 9923.35,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Alice",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    20,
+                    64,
+                    92,
+                    38,
+                    66
+                ]
+            }
+        },
+        {
+            "transaction_id": 97,
+            "supplier_id": 1034,
+            "supplier_type": "large",
+            "invoice_date": "2022-08-01",
+            "due_date": "2023-09-06",
+            "amount": 9804.42,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    50
+                ]
+            }
+        },
+        {
+            "transaction_id": 98,
+            "supplier_id": 1076,
+            "supplier_type": "small",
+            "invoice_date": "2022-09-18",
+            "due_date": "2023-03-12",
+            "amount": 8653.87,
+            "payment_terms": "60 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Bob",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    35,
+                    1,
+                    37,
+                    93
+                ]
+            }
+        },
+        {
+            "transaction_id": 99,
+            "supplier_id": 1075,
+            "supplier_type": "medium",
+            "invoice_date": "2022-10-24",
+            "due_date": "2023-12-05",
+            "amount": 4947.44,
+            "payment_terms": "30 days",
+            "status": "Pending",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    45,
+                    43,
+                    71
+                ]
+            }
+        },
+        {
+            "transaction_id": 100,
+            "supplier_id": 1048,
+            "supplier_type": "large",
+            "invoice_date": "2022-08-22",
+            "due_date": "2023-06-15",
+            "amount": 8709.06,
+            "payment_terms": "90 days",
+            "status": "Paid",
+            "metadata": {
+                "created_by": "Charlie",
+                "created_at": "2025-06-18 20:27:14",
+                "related_transactions": [
+                    30,
+                    100,
+                    53
+                ]
+            }
+        }
+    ]
+}

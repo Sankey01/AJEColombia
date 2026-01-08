@@ -1,0 +1,29 @@
+{
+  "total_providers": 100,
+  "by_category": {
+    "alto": {
+      "count": 0,
+      "percentage": 0.0,
+      "avg_score": 0
+    },
+    "medio": {
+      "count": 100,
+      "percentage": 100.0,
+      "avg_score": 0.5359199102991818
+    },
+    "bajo": {
+      "count": 0,
+      "percentage": 0.0,
+      "avg_score": 0
+    }
+  },
+  "total_alerts": 45,
+  "alerts_by_severity": {
+    "CRITICA": 0,
+    "ALTA": 0,
+    "MEDIA": 14,
+    "BAJA": 39
+  },
+  "avg_risk_score": 0.5359199102991818,
+  "median_risk_score": 0.5261127320016759
+}

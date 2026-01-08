@@ -1,0 +1,680 @@
+[
+  {
+    "proveedor_id": 1029,
+    "risk_score": 0.4372089554472193,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 56 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1092,
+    "risk_score": 0.43864580065707254,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.270 vs histórico 0.426",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 99 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1011,
+    "risk_score": 0.4410590533989337,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 44 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1047,
+    "risk_score": 0.4466151421460224,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.203 vs histórico 0.462",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 34 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1076,
+    "risk_score": 0.4492932244094067,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.130 vs histórico 0.485",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1073,
+    "risk_score": 0.4565490101630181,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.225 vs histórico 0.467",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1093,
+    "risk_score": 0.4569878306168691,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 47 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1095,
+    "risk_score": 0.4642248368334722,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.263 vs histórico 0.475",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 35 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1087,
+    "risk_score": 0.4649713568174859,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.265 vs histórico 0.469",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 50 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1051,
+    "risk_score": 0.47310331062554417,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 91 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1033,
+    "risk_score": 0.47409827485536493,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 71 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1098,
+    "risk_score": 0.4768978232974445,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.143 vs histórico 0.525",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 45 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1012,
+    "risk_score": 0.49237255203261154,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "HIGH_VOLUME_RISKY",
+        "severity": "MEDIA",
+        "message": "52 transacciones con riesgo medio",
+        "recommendation": "Revisar proceso de aprobación para este proveedor"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1039,
+    "risk_score": 0.49278648755350124,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.320 vs histórico 0.493",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 45 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1008,
+    "risk_score": 0.4951360106515566,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.233 vs histórico 0.531",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1001,
+    "risk_score": 0.4995815260375059,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 42 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1058,
+    "risk_score": 0.5087527079985106,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 50 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1068,
+    "risk_score": 0.5133683836056253,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 63 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1016,
+    "risk_score": 0.514164411652257,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 38 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1069,
+    "risk_score": 0.5182592415906747,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.355 vs histórico 0.511",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 46 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1074,
+    "risk_score": 0.5200631702721564,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 56 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1032,
+    "risk_score": 0.5215739770757296,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 43 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1075,
+    "risk_score": 0.5244268190812292,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 160 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1054,
+    "risk_score": 0.5256732022952212,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 127 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1083,
+    "risk_score": 0.5284109058131314,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 84 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1057,
+    "risk_score": 0.5390115723863809,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "DEGRADED_PERFORMANCE",
+        "severity": "MEDIA",
+        "message": "Performance reciente degradada: 0.330 vs histórico 0.562",
+        "recommendation": "Monitorear de cerca próximas transacciones"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1014,
+    "risk_score": 0.541897099169337,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "HIGH_VOLUME_RISKY",
+        "severity": "MEDIA",
+        "message": "51 transacciones con riesgo medio",
+        "recommendation": "Revisar proceso de aprobación para este proveedor"
+      },
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 95 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 2
+  },
+  {
+    "proveedor_id": 1005,
+    "risk_score": 0.545965429356513,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "HIGH_VOLUME_RISKY",
+        "severity": "MEDIA",
+        "message": "51 transacciones con riesgo medio",
+        "recommendation": "Revisar proceso de aprobación para este proveedor"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1030,
+    "risk_score": 0.550001896030227,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 54 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1024,
+    "risk_score": 0.5579046275734103,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 50 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1067,
+    "risk_score": 0.5600051705632484,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 50 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1042,
+    "risk_score": 0.561352062770784,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 33 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1071,
+    "risk_score": 0.5771619885506132,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 73 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1091,
+    "risk_score": 0.5794369359313518,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 37 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1084,
+    "risk_score": 0.5818323090107432,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 81 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1052,
+    "risk_score": 0.594525076146966,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 36 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1023,
+    "risk_score": 0.595252282616302,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 44 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1009,
+    "risk_score": 0.596000666943676,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 77 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1063,
+    "risk_score": 0.6182475831311988,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 43 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1072,
+    "risk_score": 0.6196268612025171,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 65 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1026,
+    "risk_score": 0.6214066804533027,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 35 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1004,
+    "risk_score": 0.6291297950198332,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 40 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1020,
+    "risk_score": 0.6483538285237489,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 56 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1080,
+    "risk_score": 0.6542935015018828,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 41 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  },
+  {
+    "proveedor_id": 1019,
+    "risk_score": 0.6754872645646284,
+    "risk_category": "medio",
+    "alerts": [
+      {
+        "type": "INACTIVE_PROVIDER",
+        "severity": "BAJA",
+        "message": "Sin actividad en 40 días",
+        "recommendation": "Actualizar información del proveedor antes de nueva transacción"
+      }
+    ],
+    "alert_count": 1
+  }
+]

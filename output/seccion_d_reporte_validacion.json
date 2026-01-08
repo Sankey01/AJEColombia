@@ -1,0 +1,42 @@
+{
+  "validacion_estructura": {
+    "estructura_valida": true,
+    "errores": [],
+    "advertencias": [],
+    "estadisticas": {
+      "tipos_proveedor": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "num_tipos_proveedor": 3,
+      "num_transacciones": 100
+    }
+  },
+  "integridad": {
+    "duplicados": {
+      "transaction_id": 0
+    },
+    "valores_nulos": {},
+    "rangos_invalidos": {
+      "montos_negativos": 0,
+      "due_date_antes_invoice": 0
+    },
+    "referencias_invalidas": {
+      "tipos_proveedor_invalidos": [],
+      "referencias_rotas": 0,
+      "detalle_rotas": []
+    }
+  },
+  "resumen": {
+    "total_transacciones": 100,
+    "monto_total": 525955.7899999999,
+    "monto_promedio": 5259.557899999999,
+    "distribucion_status": {
+      "Pending": 37,
+      "Paid": 33,
+      "Overdue": 30
+    },
+    "total_inconsistencias": 51
+  }
+}

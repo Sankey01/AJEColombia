@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Integral - Auditor Especialista en Analítica de Datos e IA</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-shadow { box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .section-border { border-left: 4px solid #4f46e5; }
+         {
+            body { font-size: 12px; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    
+    <!-- Header -->
+    <header class="gradient-bg text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold mb-2">
+                    <i class="fas fa-chart-line mr-3"></i>
+                    Evaluación Integral - Auditor Especialista
+                </h1>
+                <p class="text-xl opacity-90">Analítica de Datos e Inteligencia Artificial</p>
+                <div class="mt-4 bg-white bg-opacity-20 rounded-lg p-4 inline-block">
+                    <p class="text-sm"><i class="fas fa-clock mr-2"></i><strong>Duración Total:</strong> 4 horas (2 sesiones de 2 horas)</p>
+                    <p class="text-sm"><i class="fas fa-star mr-2"></i><strong>Puntuación Máxima:</strong> 100 puntos</p>
+                    <p class="text-sm"><i class="fas fa-level-up-alt mr-2"></i><strong>Nivel:</strong> Especialista Avanzado</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-6 py-8">
+        
+        <!-- Instrucciones Generales -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-info-circle text-blue-600 mr-3"></i>
+                    Instrucciones Generales
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Archivos de Datos Incluidos:</h3>
+                        <ul class="text-sm space-y-1">
+                            <li><i class="fas fa-file-csv text-green-600 mr-2"></i><code>condiciones_pagos.csv</code></li>
+                            <li><i class="fas fa-file-code text-yellow-600 mr-2"></i><code>transacciones_politicas_pago.json</code></li>
+                            <li><i class="fas fa-file-csv text-green-600 mr-2"></i><code>proveedores_condiciones.csv</code></li>
+                            <li><i class="fas fa-file-csv text-green-600 mr-2"></i><code>historicos_pagos.csv</code></li>
+                            <li><i class="fas fa-file-code text-yellow-600 mr-2"></i><code>configuracion_ia.json</code></li>
+                            <li><i class="fas fa-file-csv text-green-600 mr-2"></i><code>excepciones_casos_especiales.csv</code></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Herramientas Permitidas:</h3>
+                        <ul class="text-sm space-y-1">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Excel, Google Sheets, Power BI, Tableau</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Python (pandas, scikit-learn, matplotlib)</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>R, Alteryx, Knime, Orange</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Herramientas no-code de IA</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Agentes GPT personalizados</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4 bg-red-50 border border-red-200 rounded-lg p-4">
+                    <h3 class="font-semibold text-red-800 mb-2">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>Envío de Resultados
+                    </h3>
+                    <p class="text-red-700 text-sm">
+                        Enviar todos los entregables al <strong>correo electrónico desde el cual recibió esta evaluación</strong>. 
+                        Incluir en el asunto: "Evaluación Auditor - [Su Nombre] - [Fecha]"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTE I: Caso Práctico Principal -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-clipboard-list text-purple-600 mr-3"></i>
+                    PARTE I: Caso Práctico Principal (60 puntos)
+                </h2>
+                
+                <!-- Sección A -->
+                <div class="mb-6 section-border pl-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        <i class="fas fa-search mr-2"></i>Sección A: Análisis de Condiciones de Pagos (25 puntos)
+                    </h3>
+                    <div class="bg-blue-50 rounded-lg p-4 mb-4">
+                        <p class="text-sm font-medium text-blue-800">
+                            <i class="fas fa-database mr-2"></i>Archivo principal: <code>condiciones_pagos.csv</code>
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Tareas Específicas:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Identificar y categorizar todas las anomalías presentes en el dataset</li>
+                                <li>• Analizar patrones de comportamiento en condiciones de pago</li>
+                                <li>• Detectar transacciones duplicadas y sus características</li>
+                                <li>• Evaluar la consistencia de aprobadores y montos</li>
+                                <li>• Proponer controles automáticos para prevenir anomalías</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Entregables:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Dashboard interactivo con visualizaciones de anomalías</li>
+                                <li>• Informe ejecutivo con hallazgos y recomendaciones</li>
+                                <li>• Matriz de riesgo por tipo de anomalía</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección B -->
+                <div class="mb-6 section-border pl-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        <i class="fas fa-brain mr-2"></i>Sección B: Desarrollo de Modelo Predictivo (20 puntos)
+                    </h3>
+                    <div class="bg-green-50 rounded-lg p-4 mb-4">
+                        <p class="text-sm font-medium text-green-800">
+                            <i class="fas fa-database mr-2"></i>Archivo principal: <code>historicos_pagos.csv</code>
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Tareas Específicas:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Crear modelo predictivo para identificar riesgo de mora</li>
+                                <li>• Aplicar técnicas de machine learning (regresión, clasificación)</li>
+                                <li>• Implementar análisis de series temporales para tendencias</li>
+                                <li>• Desarrollar score de riesgo por proveedor</li>
+                                <li>• Validar modelo con métricas de performance</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Entregables:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Modelo predictivo funcional con código/configuración</li>
+                                <li>• Métricas de evaluación (precisión, recall, F1-score)</li>
+                                <li>• Interpretación de variables más importantes</li>
+                                <li>• Recomendaciones para implementación operativa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección C -->
+                <div class="mb-6 section-border pl-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        <i class="fas fa-users mr-2"></i>Sección C: Análisis de Proveedores y Riesgo (15 puntos)
+                    </h3>
+                    <div class="bg-yellow-50 rounded-lg p-4 mb-4">
+                        <p class="text-sm font-medium text-yellow-800">
+                            <i class="fas fa-database mr-2"></i>Archivo principal: <code>proveedores_condiciones.csv</code>
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Tareas Específicas:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Segmentar proveedores por nivel de riesgo</li>
+                                <li>• Analizar correlación entre tipo de empresa y performance</li>
+                                <li>• Identificar patrones geográficos de riesgo</li>
+                                <li>• Evaluar efectividad de certificaciones en performance</li>
+                                <li>• Proponer matriz de aprobación por segmento</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Entregables:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Matriz de segmentación de proveedores</li>
+                                <li>• Análisis de riesgo por categoría</li>
+                                <li>• Recomendaciones de límites de crédito</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTE II: Implementación Técnica -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-cogs text-orange-600 mr-3"></i>
+                    PARTE II: Implementación Técnica (25 puntos)
+                </h2>
+
+                <!-- Sección D -->
+                <div class="mb-6 section-border pl-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        <i class="fas fa-code mr-2"></i>Sección D: Manejo de JSON y APIs (10 puntos)
+                    </h3>
+                    <div class="bg-purple-50 rounded-lg p-4 mb-4">
+                        <p class="text-sm font-medium text-purple-800">
+                            <i class="fas fa-database mr-2"></i>Archivo principal: <code>transacciones_politicas_pago.json</code>
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Tareas Específicas:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Extraer y validar estructura JSON compleja</li>
+                                <li>• Transformar datos anidados a formato tabular</li>
+                                <li>• Implementar validaciones de integridad de datos</li>
+                                <li>• Crear script de procesamiento automatizado</li>
+                                <li>• Identificar inconsistencias en políticas vs transacciones</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Entregables:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Script de procesamiento JSON (Python/R/otro)</li>
+                                <li>• Datos transformados en formato CSV</li>
+                                <li>• Reporte de validación de estructura</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección E -->
+                <div class="mb-6 section-border pl-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        <i class="fas fa-robot mr-2"></i>Sección E: Configuración de Herramientas IA (10 puntos)
+                    </h3>
+                    <div class="bg-indigo-50 rounded-lg p-4 mb-4">
+                        <p class="text-sm font-medium text-indigo-800">
+                            <i class="fas fa-database mr-2"></i>Archivo principal: <code>configuracion_ia.json</code>
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Tareas Específicas:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Implementar configuraciones en herramienta no-code de IA</li>
+                                <li>• Crear agente GPT personalizado para auditoría</li>
+                                <li>• Configurar umbrales de anomalías en sistema</li>
+                                <li>• Implementar reglas de negocio automatizadas</li>
+                                <li>• Optimizar parámetros de modelos ML</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Entregables:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Capturas de pantalla de configuraciones implementadas</li>
+                                <li>• Prompts y configuración de agente GPT</li>
+                                <li>• Documentación de proceso de implementación</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección F -->
+                <div class="mb-6 section-border pl-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>Sección F: Gestión de Excepciones (5 puntos)
+                    </h3>
+                    <div class="bg-red-50 rounded-lg p-4 mb-4">
+                        <p class="text-sm font-medium text-red-800">
+                            <i class="fas fa-database mr-2"></i>Archivo principal: <code>excepciones_casos_especiales.csv</code>
+                        </p>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Tareas Específicas:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Automatizar clasificación de casos especiales</li>
+                                <li>• Crear flujo de trabajo para gestión de excepciones</li>
+                                <li>• Implementar sistema de alertas por complejidad</li>
+                                <li>• Proponer mejoras en procesos de aprobación</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-600">Entregables:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                                <li>• Flujo de trabajo automatizado</li>
+                                <li>• Matriz de escalación por tipo de caso</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTE III: Presentación Estratégica -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-presentation mr-3"></i>
+                    PARTE III: Presentación Estratégica (15 puntos)
+                </h2>
+                <div class="bg-gray-50 rounded-lg p-4 mb-4">
+                    <p class="text-sm font-medium text-gray-700">
+                        <i class="fas fa-clock mr-2"></i>Duración: 15 minutos de presentación + 5 minutos de preguntas
+                    </p>
+                </div>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Contenido Requerido:</h3>
+                        <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                            <li>• Síntesis ejecutiva de hallazgos principales</li>
+                            <li>• Impacto financiero y operativo de anomalías detectadas</li>
+                            <li>• Roadmap de implementación de mejoras</li>
+                            <li>• ROI estimado de soluciones propuestas</li>
+                            <li>• Plan de monitoreo continuo</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Criterios de Evaluación:</h3>
+                        <ul class="text-sm text-gray-600 space-y-1 ml-4">
+                            <li>• Claridad en comunicación de resultados técnicos</li>
+                            <li>• Pensamiento estratégico y visión de negocio</li>
+                            <li>• Viabilidad de recomendaciones</li>
+                            <li>• Manejo de preguntas y objeciones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Criterios de Evaluación -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-star text-yellow-500 mr-3"></i>
+                    Criterios de Evaluación
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-3">Competencias Técnicas (70%)</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center">
+                                <i class="fas fa-chart-bar text-blue-500 mr-2"></i>
+                                Dominio de herramientas de análisis de datos
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-robot text-green-500 mr-2"></i>
+                                Implementación efectiva de IA no-code
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-code text-purple-500 mr-2"></i>
+                                Manejo avanzado de estructuras JSON
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-brain text-orange-500 mr-2"></i>
+                                Desarrollo de modelos predictivos/prescriptivos
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-3">Competencias Profesionales (30%)</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li class="flex items-center">
+                                <i class="fas fa-search text-red-500 mr-2"></i>
+                                Pensamiento crítico y analítico
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-lightbulb text-yellow-500 mr-2"></i>
+                                Creatividad en solución de problemas
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-comments text-blue-500 mr-2"></i>
+                                Comunicación efectiva de resultados
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-clock text-gray-500 mr-2"></i>
+                                Gestión del tiempo y priorización
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Escala de Puntuación -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-trophy text-gold mr-3"></i>
+                    Escala de Puntuación
+                </h2>
+                <div class="grid md:grid-cols-4 gap-4">
+                    <div class="bg-green-100 rounded-lg p-4 text-center">
+                        <div class="text-2xl font-bold text-green-700">90-100</div>
+                        <div class="text-sm text-green-600">Excelente</div>
+                        <div class="text-xs text-gray-600 mt-1">Supera expectativas</div>
+                    </div>
+                    <div class="bg-blue-100 rounded-lg p-4 text-center">
+                        <div class="text-2xl font-bold text-blue-700">80-89</div>
+                        <div class="text-sm text-blue-600">Bueno</div>
+                        <div class="text-xs text-gray-600 mt-1">Cumple expectativas</div>
+                    </div>
+                    <div class="bg-yellow-100 rounded-lg p-4 text-center">
+                        <div class="text-2xl font-bold text-yellow-700">70-79</div>
+                        <div class="text-sm text-yellow-600">Satisfactorio</div>
+                        <div class="text-xs text-gray-600 mt-1">Requiere mejoras</div>
+                    </div>
+                    <div class="bg-red-100 rounded-lg p-4 text-center">
+                        <div class="text-2xl font-bold text-red-700">< 70</div>
+                        <div class="text-sm text-red-600">Insatisfactorio</div>
+                        <div class="text-xs text-gray-600 mt-1">No cumple mínimos</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Entregables Finales -->
+        <section class="mb-8">
+            <div class="bg-white rounded-lg card-shadow p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-file-alt text-blue-600 mr-3"></i>
+                    Lista de Entregables Finales
+                </h2>
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+                    <p class="text-blue-800 font-medium">
+                        <i class="fas fa-envelope mr-2"></i>
+                        Enviar todos los archivos comprimidos en ZIP al correo desde el cual recibió esta evaluación
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-3">Archivos Técnicos:</h3>
+                        <ul class="space-y-1 text-sm">
+                            <li><i class="fas fa-file-excel text-green-600 mr-2"></i>Dashboards y análisis en Excel/Power BI</li>
+                            <li><i class="fas fa-file-code text-blue-600 mr-2"></i>Scripts de procesamiento (Python/R)</li>
+                            <li><i class="fas fa-file-csv text-green-600 mr-2"></i>Datasets procesados y limpios</li>
+                            <li><i class="fas fa-cog text-gray-600 mr-2"></i>Configuraciones de modelos ML</li>
+                            <li><i class="fas fa-robot text-purple-600 mr-2"></i>Configuración de agentes IA</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-3">Documentos Estratégicos:</h3>
+                        <ul class="space-y-1 text-sm">
+                            <li><i class="fas fa-file-pdf text-red-600 mr-2"></i>Informe ejecutivo completo</li>
+                            <li><i class="fas fa-presentation text-orange-600 mr-2"></i>Presentación PowerPoint</li>
+                            <li><i class="fas fa-list-alt text-blue-600 mr-2"></i>Matriz de riesgos y recomendaciones</li>
+                            <li><i class="fas fa-road text-green-600 mr-2"></i>Roadmap de implementación</li>
+                            <li><i class="fas fa-image text-purple-600 mr-2"></i>Capturas de pantalla de herramientas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-6 rounded-lg">
+            <div class="text-center">
+                <p class="text-sm">
+                    <i class="fas fa-calendar-alt mr-2"></i>
+                    Evaluación desarrollada para selección de Auditor Especialista en Analítica de Datos e IA
+                </p>
+                <p class="text-xs text-gray-400 mt-2">
+                    Todos los datos utilizados son ficticios y generados específicamente para fines de evaluación
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDjBB2vBcb7xSqlpBVYQvNP0Wmdt3keCAoCx3zFTNMqycb9va3fQ92M51XSYhRZYL1CLd%2BgGRwezPqYajbsq0u5CGN81UFhiXlVwE5JoAJkT9%2FO4Klsz8p4IbPdKl2edv6ERGHAJomxTpG6YdtqTthQMx%2BMTgqWAzKtuUe5MnqoGtd7s6jnMY4IcWOvjsDwB2R7MtQD96uhMQ%2B9lYwZNuqH7Cxi%2BsKCDHMYzu%2FGqqng7n%2BGxjq7Y3m9IzzwXAlzW7WfQPkOg2f2kzq1Zffbd%2BATnJ8uhryMDJQ5Ldi3OlPXzGj3T9NdAsAAj0mLWaTgXnSicQPoWV4zPSbAXB%2FcYaKrpM1QElsjNpBH34uRcvI%2FZF8vipuQESUgID8ioHi8kAiGpqtIzzjMXj%2FK5jZ0cYEsFWlsdYSqvwKIvPf1TPL%2Fc3Ivp55UZ9uNe86Yh8ZRsJxzq2goSjB5ne067sCbpWbbWXID42E%2FIWLDF4X6wES6DWKKn1h2i%2B9NPz5T0RWTE1wtHu2wHWCRxra5%2F7HpLP8xY%3D";
+        window.__genspark_locale = "es-ES";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDjBB2vBcb7xSqlpBVYQvNP0Wmdt3keCAoCx3zFTNMqycb9va3fQ92M51XSYhRZYL1CLd+gGRwezPqYajbsq0u5CGN81UFhiXlVwE5JoAJkT9/O4Klsz8p4IbPdKl2edv6ERGHAJomxTpG6YdtqTthQMx+MTgqWAzKtuUe5MnqoGtd7s6jnMY4IcWOvjsDwB2R7MtQD96uhMQ+9lYwZNuqH7Cxi+sKCDHMYzu/Gqqng7n+Gxjq7Y3m9IzzwXAlzW7WfQPkOg2f2kzq1Zffbd+ATnJ8uhryMDJQ5Ldi3OlPXzGj3T9NdAsAAj0mLWaTgXnSicQPoWV4zPSbAXB/cYaKrpM1QElsjNpBH34uRcvI/ZF8vipuQESUgID8ioHi8kAiGpqtIzzjMXj/K5jZ0cYEsFWlsdYSqvwKIvPf1TPL/c3Ivp55UZ9uNe86Yh8ZRsJxzq2goSjB5ne067sCbpWbbWXID42E/IWLDF4X6wES6DWKKn1h2i+9NPz5T0RWTE1wtHu2wHWCRxra5/7HpLP8xY=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    

@@ -1,0 +1,166 @@
+{
+  "start_time": "2026-01-07T20:28:13.449363",
+  "status": "success",
+  "cleaning": {
+    "status": "success",
+    "records": 3598,
+    "report": {
+      "initial": {
+        "total_records": 3598,
+        "total_columns": 9,
+        "null_values": 0,
+        "duplicated_rows": 0,
+        "memory_usage_mb": 1.14
+      },
+      "outliers": {
+        "monto": {
+          "count": 60,
+          "percentage": 1.67,
+          "lower_bound": -313.57,
+          "upper_bound": 6111.8
+        },
+        "tiempo_procesamiento": {
+          "count": 0,
+          "percentage": 0.0,
+          "lower_bound": -3.0,
+          "upper_bound": 13.0
+        }
+      },
+      "total_outliers": 60,
+      "final": {
+        "total_records": 3598,
+        "total_columns": 10,
+        "null_values": 0,
+        "duplicated_rows": 0,
+        "memory_usage_mb": 0.97
+      },
+      "changes": {
+        "records_removed": 0,
+        "null_values_removed": 0
+      }
+    }
+  },
+  "preprocessing": {
+    "status": "success",
+    "train_size": 2878,
+    "test_size": 720,
+    "features_count": 24
+  },
+  "training": {
+    "status": "success",
+    "models_trained": [
+      "logistic_regression",
+      "random_forest",
+      "xgboost"
+    ],
+    "results": {
+      "logistic_regression": {
+        "model": "LogisticRegression(class_weight='balanced', max_iter=1000, penalty='l2',\n                   random_state=42, solver='liblinear')",
+        "best_params": {
+          "C": 1.0,
+          "penalty": "l2",
+          "solver": "liblinear",
+          "max_iter": 1000,
+          "random_state": 42,
+          "class_weight": "balanced"
+        },
+        "cv_score": null,
+        "metrics": {
+          "train": {
+            "accuracy": 0.5277970813064629,
+            "precision": 0.5251274581209031,
+            "recall": 0.5049019607843137,
+            "f1": 0.5148161370938951,
+            "roc_auc": 0.5344619916932289,
+            "average_precision": 0.5303257550771624,
+            "cohen_kappa": 0.05526293541771832
+          },
+          "test": {
+            "accuracy": 0.525,
+            "precision": 0.5180327868852459,
+            "recall": 0.4475920679886686,
+            "f1": 0.48024316109422494,
+            "roc_auc": 0.5195019721962779,
+            "average_precision": 0.5140390146121144,
+            "cohen_kappa": 0.0471694462717176
+          }
+        }
+      },
+      "random_forest": {
+        "model": "RandomForestClassifier(class_weight='balanced', max_depth=20,\n                       min_samples_leaf=2, min_samples_split=5,\n                       n_estimators=200, n_jobs=-1, random_state=42)",
+        "best_params": {
+          "n_estimators": 200,
+          "max_depth": 20,
+          "min_samples_split": 5,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "random_state": 42,
+          "n_jobs": -1,
+          "class_weight": "balanced"
+        },
+        "cv_score": null,
+        "metrics": {
+          "train": {
+            "accuracy": 0.9927032661570535,
+            "precision": 0.9909281228192603,
+            "recall": 0.9943977591036415,
+            "f1": 0.9926599091226844,
+            "roc_auc": 0.9997894330145852,
+            "average_precision": 0.9997867248983849,
+            "cohen_kappa": 0.985406067162323
+          },
+          "test": {
+            "accuracy": 0.5125,
+            "precision": 0.5033112582781457,
+            "recall": 0.43059490084985835,
+            "f1": 0.46412213740458014,
+            "roc_auc": 0.4983520003705105,
+            "average_precision": 0.49560958247715775,
+            "cohen_kappa": 0.021936003219963696
+          }
+        },
+        "feature_importance": "                           feature  importance\n0                     monto_scaled    0.197660\n1                     day_of_month    0.142982\n2                     week_of_year    0.114509\n3      tiempo_procesamiento_scaled    0.108276\n4                      day_of_week    0.090201\n5                            month    0.060805\n6   indicadores_economicos_encoded    0.053218\n7                             year    0.040565\n8                          quarter    0.026414\n9             método_pago_Efectivo    0.023798\n10              método_pago_Cheque    0.022268\n11       método_pago_Transferencia    0.021873\n12      categoria_gasto_Tecnología    0.020582\n13       categoria_gasto_Logística    0.020430\n14       categoria_gasto_Servicios    0.020132\n15      categoria_gasto_Materiales    0.018390\n16          estacionalidad_encoded    0.010389\n17                  is_month_start    0.003952\n18                      is_outlier    0.001705\n19                is_quarter_start    0.001540\n20                    is_month_end    0.000311\n21                  is_quarter_end    0.000000"
+      },
+      "xgboost": {
+        "model": "XGBClassifier(base_score=None, booster=None, callbacks=None,\n              colsample_bylevel=None, colsample_bynode=None,\n              colsample_bytree=0.8, device=None, early_stopping_rounds=None,\n              enable_categorical=False, eval_metric='logloss',\n              feature_types=None, feature_weights=None, gamma=0.1,\n              grow_policy=None, importance_type=None,\n              interaction_constraints=None, learning_rate=0.1, max_bin=None,\n              max_cat_threshold=None, max_cat_to_onehot=None,\n              max_delta_step=None, max_depth=5, max_leaves=None,\n              min_child_weight=3, missing=nan, monotone_constraints=None,\n              multi_strategy=None, n_estimators=200, n_jobs=-1,\n              num_parallel_tree=None, ...)",
+        "best_params": {
+          "n_estimators": 200,
+          "max_depth": 5,
+          "learning_rate": 0.1,
+          "subsample": 0.8,
+          "colsample_bytree": 0.8,
+          "min_child_weight": 3,
+          "gamma": 0.1,
+          "random_state": 42,
+          "n_jobs": -1,
+          "scale_pos_weight": 2,
+          "eval_metric": "logloss"
+        },
+        "cv_score": null,
+        "metrics": {
+          "train": {
+            "accuracy": 0.7953439888811675,
+            "precision": 0.7098549274637319,
+            "recall": 0.9936974789915967,
+            "f1": 0.8281295593813831,
+            "roc_auc": 0.9607546121897035,
+            "average_precision": 0.9576852074325568,
+            "cohen_kappa": 0.5919019914959018
+          },
+          "test": {
+            "accuracy": 0.4791666666666667,
+            "precision": 0.48109965635738833,
+            "recall": 0.7932011331444759,
+            "f1": 0.5989304812834224,
+            "roc_auc": 0.4857855207601639,
+            "average_precision": 0.47724594398084397,
+            "cohen_kappa": -0.029324305777940207
+          }
+        },
+        "feature_importance": "                           feature  importance\n0             método_pago_Efectivo    0.057851\n1                     monto_scaled    0.057657\n2        categoria_gasto_Servicios    0.055178\n3                     day_of_month    0.054683\n4               método_pago_Cheque    0.053559\n5                     week_of_year    0.053122\n6      tiempo_procesamiento_scaled    0.053089\n7        categoria_gasto_Logística    0.052077\n8                      day_of_week    0.051836\n9                             year    0.051785\n10                           month    0.050744\n11                         quarter    0.050364\n12      categoria_gasto_Materiales    0.050332\n13      categoria_gasto_Tecnología    0.048904\n14       método_pago_Transferencia    0.048897\n15                  is_month_start    0.048045\n16          estacionalidad_encoded    0.047642\n17  indicadores_economicos_encoded    0.046720\n18                is_quarter_start    0.045067\n19                      is_outlier    0.022446\n20                  is_quarter_end    0.000000\n21                    is_month_end    0.000000"
+      }
+    }
+  },
+  "end_time": "2026-01-07T20:28:16.669348",
+  "duration_seconds": 3.219985
+}
